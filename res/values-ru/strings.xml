@@ -544,7 +544,7 @@
     <string name="pref_photosphere_settings_category">Настройки панорамы</string>
     <string name="pref_smartburst_summary">Сохранять только 8 лучших фотографий из серии</string>
     <string name="pref_title_build_version">Версия сборки</string>
-    <string name="pref_title_photo_sphere_and_panorama_resolution">Разрешение для панорам</string>
+    <string name="pref_title_photo_sphere_and_panorama_resolution">Разрешение панорам</string>
     <string name="pref_title_refocus_quality">Качество изображения</string>
     <string name="pref_video_effect_title">Эффекты</string>
     <string name="pref_video_hevc">HEVC</string>

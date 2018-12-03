@@ -130,6 +130,7 @@
         <com.google.android.apps.camera.legacy.app.settings.ManagedSwitchPreference android:icon="@drawable/ic_hdr_on_white_48dp" android:layout="@layout/preference_with_margin" android:title="@string/pref_livehdr_title" android:key="pref_livehdrvideo_key" android:defaultValue="false" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/setting_google_help_and_feedback" android:key="pref_category_help_and_feedback">
+        <ListPreference android:entries="@array/pref_lightcycle_quality_entries" android:layout="@layout/preference_with_margin" android:icon="@drawable/ic_panosize_white" android:title="@string/pref_title_photo_sphere_and_panorama_resolution" android:key="pref_lightcycle_quality_key" android:summary="%s" android:order="30" android:defaultValue="@string/camera_quality_high" android:entryValues="@array/pref_lightcycle_quality_entryvalues" />
         <Preference android:enabled="false" android:layout="@layout/hide" android:title="@string/setting_google_feedback" android:key="pref_launch_feedback" />
     </PreferenceCategory>
 </PreferenceScreen>
