@@ -235,7 +235,7 @@
 
     .line 56
     .local v4, "modDigital_gain":F
-    const/high16 v7, 0x3f800000    # 1.0f
+    const/high16 v7, 0x00000000    # 0.0f
 
     cmpg-float v7, v4, v7
 
