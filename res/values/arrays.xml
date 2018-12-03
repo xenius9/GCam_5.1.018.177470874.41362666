@@ -1150,20 +1150,40 @@
     </string-array>
     <string-array name="pref_smas_entries">
         <item>@string/pref_smas_0</item>
-        <item>@string/pref_smas_110</item>
-        <item>@string/pref_smas_500</item>
-        <item>@string/pref_smas_1000</item>
-        <item>@string/pref_smas_1550</item>
-        <item>@string/pref_smas_1600</item>
-        <item>@string/pref_smas_2200</item>
-        <item>@string/pref_smas_3300</item>
+        <item>@string/pref_smas_1</item>
+        <item>@string/pref_smas_2</item>
+        <item>@string/pref_smas_3</item>
+        <item>@string/pref_smas_4</item>
+        <item>@string/pref_smas_5</item>
+        <item>@string/pref_smas_6</item>
+        <item>@string/pref_smas_7</item>
+        <item>@string/pref_smas_8</item>
+        <item>@string/pref_smas_9</item>
+        <item>@string/pref_smas_10</item>
+        <item>@string/pref_smas_11</item>
+        <item>@string/pref_smas_12</item>
+        <item>@string/pref_smas_13</item>
+        <item>@string/pref_smas_14</item>
+        <item>@string/pref_smas_15</item>
+        <item>@string/pref_smas_16</item>
+        <item>@string/pref_smas_17</item>
     </string-array>
     <string-array name="pref_smas_entryvalues">
         <item>0</item>
-        <item>110</item>
+        <item>50</item>
+        <item>64</item>
+        <item>80</item>
+        <item>100</item>
+        <item>125</item>
+        <item>160</item>
+        <item>200</item>
+        <item>250</item>
+        <item>320</item>
+        <item>400</item>
         <item>500</item>
-        <item>1000</item>
-        <item>1550</item>
+        <item>640</item>
+        <item>800</item>
+        <item>1250</item>
         <item>1600</item>
         <item>2200</item>
         <item>3300</item>

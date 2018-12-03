@@ -4200,14 +4200,6 @@
     <public type="string" name="pref_siwl_title" id="0x7f11051e" />
     <public type="string" name="pref_smas_title" id="0x7f11051f" />
     <public type="string" name="pref_smas_default" id="0x7f110520" />
-    <public type="string" name="pref_smas_0" id="0x7f110521" />
-    <public type="string" name="pref_smas_110" id="0x7f110522" />
-    <public type="string" name="pref_smas_500" id="0x7f110523" />
-    <public type="string" name="pref_smas_1000" id="0x7f110524" />
-    <public type="string" name="pref_smas_1550" id="0x7f110525" />
-    <public type="string" name="pref_smas_1600" id="0x7f110526" />
-    <public type="string" name="pref_smas_2200" id="0x7f110527" />
-    <public type="string" name="pref_smas_3300" id="0x7f110528" />
     <public type="string" name="pref_input_mf_enabled_macro_hint" id="0x7f110529" />
     <public type="string" name="pref_input_mf_enabled_portrait_hint" id="0x7f11052a" />
     <public type="string" name="pref_input_mf_enabled_infinity_hint" id="0x7f11052b" />

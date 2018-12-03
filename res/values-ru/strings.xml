@@ -885,7 +885,7 @@ HDR+ No-ZSL"</string>
     <string name="pref_portraitsinglefolder_title">Сохранять фото в общую папку</string>
     <string name="pref_all_title_summary_psinglefolder">Если да, рекомендуется включить camera.use_photos в настройках разработчика</string>
     <string name="pref_opticalstabi_title">Оптическая стабилизация (Samsung)</string>
-    <string name="pref_smas_title">Максимальная чувствительность аналогового усиления</string>
+    <string name="pref_smas_title">Максимальное аналоговое ISO</string>
     <string name="pref_input_mf_enabled_macro_hint">Фокусное расстояние (Бесконечность: 0.0, Кратчайшее: 15.0, По умолчанию: 14.29)</string>
     <string name="pref_input_mf_enabled_portrait_hint">Фокусное расстояние (Бесконечность: 0.0, Кратчайшее: 15.0, По умолчанию: 2.21)</string>
     <string name="pref_input_mf_enabled_infinity_hint">Фокусное расстояние (Бесконечность: 0.0, Кратчайшее: 15.0, По умолчанию: 0.0)</string>
