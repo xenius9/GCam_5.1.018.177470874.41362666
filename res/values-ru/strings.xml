@@ -827,9 +827,16 @@
     <string name="pref_aemode_title">"Настройки автоэкспозиции
 в режиме HDR+ No-ZSL"</string>
     <string name="pref_aemode_0">По умолчанию</string>
-    <string name="pref_aemode_5">Медленный затвор X8 (макс.)</string>
-    <string name="pref_aemode_6">Медленный затвор X4</string>
-    <string name="pref_aemode_7">Медленный затвор X2</string>
+    <string name="pref_aemode_1">Медленный затвор</string>
+    <string name="pref_aemode_2">1/10 сек.минимум</string>
+    <string name="pref_aemode_3">1/20 сек.минимум</string>
+    <string name="pref_aemode_4">1/30 сек.минимум</string>
+    <string name="pref_aemode_5">1/50 сек.минимум</string>
+    <string name="pref_aemode_6">1/100 сек.минимум</string>
+    <string name="pref_aemode_7">1/200 сек.минимум</string>
+    <string name="pref_aemode_8">Медленный затвор X2</string>
+    <string name="pref_aemode_9">Медленный затвор X4</string>
+    <string name="pref_aemode_10">Медленный затвор X8</string>
     <string name="pref_antibandingmode_title">"Устранение мерцания
 в режиме HDR+ No-ZSL"</string>
     <string name="pref_abmode_0">Отключено</string>
@@ -877,11 +884,6 @@ HDR+ No-ZSL"</string>
     <string name="pref_portraitsinglefolder_title">Сохранять фото в общую папку</string>
     <string name="pref_all_title_summary_psinglefolder">Если да, рекомендуется включить camera.use_photos в настройках разработчика</string>
     <string name="pref_opticalstabi_title">Оптическая стабилизация (Samsung)</string>
-    <string name="pref_aemode_8">1/10 с (мин.)</string>
-    <string name="pref_aemode_9">1/20 с.</string>
-    <string name="pref_aemode_10">1/33 с.</string>
-    <string name="pref_aemode_11">1/50 с.</string>
-    <string name="pref_aemode_12">1/100 с.</string>
     <string name="pref_smas_title">Максимальная чувствительность аналогового усиления</string>
     <string name="pref_input_mf_enabled_macro_hint">Фокусное расстояние (Бесконечность: 0.0, Кратчайшее: 15.0, По умолчанию: 14.29)</string>
     <string name="pref_input_mf_enabled_portrait_hint">Фокусное расстояние (Бесконечность: 0.0, Кратчайшее: 15.0, По умолчанию: 2.21)</string>

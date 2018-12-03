@@ -4197,8 +4197,6 @@
     <public type="string" name="pref_aemode_8" id="0x7f110519" />
     <public type="string" name="pref_aemode_9" id="0x7f11051a" />
     <public type="string" name="pref_aemode_10" id="0x7f11051b" />
-    <public type="string" name="pref_aemode_11" id="0x7f11051c" />
-    <public type="string" name="pref_aemode_12" id="0x7f11051d" />
     <public type="string" name="pref_siwl_title" id="0x7f11051e" />
     <public type="string" name="pref_smas_title" id="0x7f11051f" />
     <public type="string" name="pref_smas_default" id="0x7f110520" />
@@ -4271,7 +4269,6 @@
     <public type="string" name="about_dev_4_summary" id="0x7f110563" />
     <public type="string" name="about_dev_5_title" id="0x7f110564" />
     <public type="string" name="about_dev_5_summary" id="0x7f110565" />
-    <public type="string" name="pref_aemode_13" id="0x7f110566" />
     <public type="string" name="about_dev_6_title" id="0x7f110567" />
     <public type="string" name="about_dev_6_summary" id="0x7f110568" />
     <public type="string" name="pref_livehdr_summary" id="0x7f110569" />
@@ -4498,7 +4495,6 @@
     <public type="string" name="pref_samsung_title" id="0x7f110577" />
     <public type="string" name="pref_snap_title" id="0x7f110578" />
     <public type="string" name="pref_snap_summary" id="0x7f110579" />
-    <public type="string" name="pref_disparos_settings_summary" id="0x7f110585" />
     <public type="style" name="AlertDialog.AppCompat" id="0x7f120000" />
     <public type="style" name="AlertDialog.AppCompat.Light" id="0x7f120001" />
     <public type="style" name="Animation.AppCompat.Dialog" id="0x7f120002" />
