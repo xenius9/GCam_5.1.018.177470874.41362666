@@ -4207,18 +4207,6 @@
     <public type="string" name="pref_hexagon_summary" id="0x7f110535" />
     <public type="string" name="pref_hexagon_0" id="0x7f110536" />
     <public type="string" name="pref_hexagon_1" id="0x7f110537" />
-    <public type="string" name="pref_denoiseluma_2000" id="0x7f110538" />
-    <public type="string" name="pref_denoiseluma_3000" id="0x7f110539" />
-    <public type="string" name="pref_denoiseluma_4000" id="0x7f11053a" />
-    <public type="string" name="pref_denoiseluma_5000" id="0x7f11053b" />
-    <public type="string" name="pref_denoiseluma_6000" id="0x7f11053c" />
-    <public type="string" name="pref_denoiseluma_7000" id="0x7f11053d" />
-    <public type="string" name="pref_denoiseluma_8000" id="0x7f11053e" />
-    <public type="string" name="pref_denoiseluma_9000" id="0x7f11053f" />
-    <public type="string" name="pref_denoiseluma_20000" id="0x7f110540" />
-    <public type="string" name="pref_denoiseluma_50000" id="0x7f110541" />
-    <public type="string" name="pref_denoiseluma_70000" id="0x7f110542" />
-    <public type="string" name="pref_denoiseluma_100000" id="0x7f110543" />
     <public type="string" name="pref_hexagon_2" id="0x7f110544" />
     <public type="string" name="pref_wbmult_70" id="0x7f110545" />
     <public type="string" name="pref_wbmult_71" id="0x7f110546" />

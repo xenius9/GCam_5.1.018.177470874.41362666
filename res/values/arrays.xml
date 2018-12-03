@@ -1082,7 +1082,20 @@
         <item>490</item>
         <item>495</item>
         <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
         <item>1000</item>
+        <item>1100</item>
+        <item>1200</item>
+        <item>1300</item>
+        <item>1400</item>
+        <item>1500</item>
+        <item>1600</item>
+        <item>1700</item>
+        <item>1800</item>
+        <item>1900</item>
         <item>2000</item>
         <item>3000</item>
         <item>4000</item>
@@ -1092,10 +1105,6 @@
         <item>8000</item>
         <item>9000</item>
         <item>10000</item>
-        <item>20000</item>
-        <item>50000</item>
-        <item>70000</item>
-        <item>100000</item>
     </string-array>
     <string-array name="pref_denoise_luma_entries">
         <item>@string/pref_denoiseluma_0</item>
@@ -1199,7 +1208,20 @@
         <item>@string/pref_denoiseluma_490</item>
         <item>@string/pref_denoiseluma_495</item>
         <item>@string/pref_denoiseluma_500</item>
+        <item>@string/pref_denoiseluma_600</item>
+        <item>@string/pref_denoiseluma_700</item>
+        <item>@string/pref_denoiseluma_800</item>
+        <item>@string/pref_denoiseluma_900</item>
         <item>@string/pref_denoiseluma_1000</item>
+        <item>@string/pref_denoiseluma_1100</item>
+        <item>@string/pref_denoiseluma_1200</item>
+        <item>@string/pref_denoiseluma_1300</item>
+        <item>@string/pref_denoiseluma_1400</item>
+        <item>@string/pref_denoiseluma_1500</item>
+        <item>@string/pref_denoiseluma_1600</item>
+        <item>@string/pref_denoiseluma_1700</item>
+        <item>@string/pref_denoiseluma_1800</item>
+        <item>@string/pref_denoiseluma_1900</item>
         <item>@string/pref_denoiseluma_2000</item>
         <item>@string/pref_denoiseluma_3000</item>
         <item>@string/pref_denoiseluma_4000</item>
@@ -1209,10 +1231,6 @@
         <item>@string/pref_denoiseluma_8000</item>
         <item>@string/pref_denoiseluma_9000</item>
         <item>@string/pref_denoiseluma_10000</item>
-        <item>@string/pref_denoiseluma_20000</item>
-        <item>@string/pref_denoiseluma_50000</item>
-        <item>@string/pref_denoiseluma_70000</item>
-        <item>@string/pref_denoiseluma_100000</item>
     </string-array>
     <string-array name="pref_smas_entries">
         <item>@string/pref_smas_0</item>
