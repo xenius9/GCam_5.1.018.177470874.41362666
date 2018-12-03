@@ -948,4 +948,5 @@
     <string name="pref_max_brightness_title">Максимальная яркость видоискателя</string>
     <string name="pref_fronthdrfix_title">Фикс HDR+ для фронтальной камеры</string>
     <string name="pref_fronthdrfix_summary">Исправление работы HDR+ на фронтальной камере.</string>
+    <string name="fix_use_photos_title">Использовать Google Фото</string>
 </resources>

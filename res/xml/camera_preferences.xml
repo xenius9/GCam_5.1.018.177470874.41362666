@@ -131,6 +131,7 @@
     <!-- Прочие настройки -->
     <PreferenceCategory android:title="@string/setting_google_help_and_feedback" android:key="pref_category_help_and_feedback">
         <Preference android:icon="@drawable/ic_sd_storage_white_48dp" android:layout="@layout/preference_with_margin" android:title="@string/pref_folder_title" android:key="pref_folder_key" />
+        <com.google.android.apps.camera.legacy.app.settings.ManagedSwitchPreference android:icon="@drawable/custom_gallery_white_48dp" android:layout="@layout/preference_with_margin" android:title="@string/fix_use_photos_title" android:key="google_photos_key" android:summary="@string/google_photos_summary" android:defaultValue="false" />
         <com.google.android.apps.camera.legacy.app.settings.ManagedSwitchPreference android:icon="@drawable/ic_room_white_48dp" android:layout="@layout/preference_with_margin" android:title="@string/pref_camera_save_location_title" android:key="pref_camera_recordlocation_key" android:defaultValue="false" />
         <com.google.android.apps.camera.legacy.app.settings.ManagedSwitchPreference android:icon="@drawable/ic_volume_up_white_48pt" android:layout="@layout/preference_with_margin" android:title="@string/pref_camera_sounds_title" android:key="pref_camera_sounds_key" android:defaultValue="false" />
         <PreferenceScreen android:icon="@drawable/ic_touch_app_white_48dp" android:layout="@layout/preference_with_margin" android:title="@string/pref_camera_gestures_title" android:key="pref_category_gestures">
