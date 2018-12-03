@@ -896,12 +896,20 @@ Move device slowly"</string>
 In AUTO mode, the config depends on the Model"</string>
     <string name="pref_parameters_camera_title">HDR+ parameters</string>
     <string name="pref_parameters_camera_default">6</string>
-    <string name="pref_parameters_camera_0">Default (8/10 burst)</string>
-    <string name="pref_parameters_camera_1">Very Low (3/5 burst)</string>
-    <string name="pref_parameters_camera_2">Low (5/7 burst)</string>
-    <string name="pref_parameters_camera_3">Medium (7/9 burst)</string>
-    <string name="pref_parameters_camera_4">High (9/11 burst)</string>
-    <string name="pref_parameters_camera_5">Very High (20/24 burst)</string>
+    <string name="pref_parameters_camera_0">Default, 8 frames</string>
+    <string name="pref_parameters_camera_1">Very low, 3 frames</string>
+    <string name="pref_parameters_camera_2">Low, 5 frames</string>
+    <string name="pref_parameters_camera_3">Medium, 12 frames</string>
+    <string name="pref_parameters_camera_4">"High, 20 frames
+not for ZSL!"</string>
+    <string name="pref_parameters_camera_5">"Very High, 48 frames
+not for ZSL!"</string>
+    <string name="pref_parameters_camera_6">"Pixel 2017
+12 frames"</string>
+    <string name="pref_parameters_camera_7">"Pixel 2017 ZSL
+12 frames"</string>
+    <string name="pref_parameters_camera_8">"Pixel 2017 ZSL Fast
+8 frames"</string>
     <string name="setting_sblpf_title">Fix black level Front camera</string>
     <string name="pref_sblpf_default">0000</string>
     <string name="pref_sblpf_m12">00.00</string>
@@ -1029,9 +1037,6 @@ If enabled, the config of the Nexus6P or Pixels will be used"</string>
     <string name="pref_refocusmb_summary">"%s
 The value should not exceed the actual size of the camera module"</string>
     <string name="pref_all_title_summary_switch">It is necessary to completely close the application, the changes will take effect at the next start.</string>
-    <string name="pref_parameters_camera_6">Pixel stable (8/10/10 burst)</string>
-    <string name="pref_parameters_camera_7">Pixel fast ZSL (8/10/8 burst)</string>
-    <string name="pref_parameters_camera_8">Pixel faster ZSL (8/10/8 burst)</string>
     <string name="pref_qhdrf_title">HDR+ Front camera</string>
     <string name="pref_qhdrf_summary">Turn on auto HDR+ for front camera.</string>
     <string name="pref_aemode_title">HDR+ Auto-Exposure mode No-ZSL</string>

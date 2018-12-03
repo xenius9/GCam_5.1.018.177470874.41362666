@@ -772,19 +772,24 @@
     <string name="zoom_plus_desc">Увеличить</string>
     <string name="pref_config_camera_title">Профиль HDR+</string>
     <string name="pref_parameters_camera_title">Параметры буфера HDR+</string>
-    <string name="pref_parameters_camera_default">6</string>
     <string name="pref_parameters_camera_0">"По умолчанию
-(8/10 burst)"</string>
+8 кадров"</string>
     <string name="pref_parameters_camera_1">"Очень низкие настройки
-(3/5 burst)"</string>
+3 кадра"</string>
     <string name="pref_parameters_camera_2">"Низкие настройки
-(5/7 burst)"</string>
+5 кадров"</string>
     <string name="pref_parameters_camera_3">"Средние настройки
-(7/9 burst)"</string>
+12 кадров"</string>
     <string name="pref_parameters_camera_4">"Высокие настройки
-(9/11 burst)"</string>
+20 кадров, не для ZSL!"</string>
     <string name="pref_parameters_camera_5">"Очень высокие настройки
-(20/24 burst)"</string>
+48 кадров, не для ZSL!"</string>
+    <string name="pref_parameters_camera_6">"Pixel
+12 кадров"</string>
+    <string name="pref_parameters_camera_7">"Pixel ZSL
+12 кадров"</string>
+    <string name="pref_parameters_camera_8">"Pixel ZSL быстрый
+8 кадров"</string>
     <string name="setting_sblpf_title">Настройка уровня чёрного фронтальной камеры</string>
     <string name="pref_sblp_title">Регулировка уровня чёрного</string>
     <string name="pref_enable_sblp_title">Включить</string>
@@ -817,12 +822,6 @@
     <string name="pref_refocusmb_summary">"%s
 Значение не должно превышать реальный размер модуля камеры"</string>
     <string name="pref_all_title_summary_switch">Вам нужно полностью закрыть приложение, изменения вступят в силу при следующем запуске</string>
-    <string name="pref_parameters_camera_6">"Pixel стабильный
-(8/10/10 burst)"</string>
-    <string name="pref_parameters_camera_7">"Pixel ZSL быстрый
-(8/10/8 burst)"</string>
-    <string name="pref_parameters_camera_8">"Pixel ZSL быстрейший
-(8/10/8 burst)"</string>
     <string name="pref_aemode_title">"Настройка автоэкспозиции
 в режиме HDR+ No-ZSL"</string>
     <string name="pref_aemode_0">По умолчанию</string>

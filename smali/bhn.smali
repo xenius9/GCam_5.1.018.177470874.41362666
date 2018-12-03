@@ -660,22 +660,22 @@
     goto :goto_0
 
     :cond_1
-    const/16 v2, 0x4
-
-    goto :goto_0
-
-    :cond_2
     const/16 v2, 0x5
 
     goto :goto_0
 
+    :cond_2
+    const/16 v2, 0xc
+
+    goto :goto_0
+
     :cond_3
-    const/16 v2, 0x6
+    const/16 v2, 0x14
 
     goto :goto_0
 
     :cond_4
-    const/16 v2, 0x16
+    const/16 v2, 0x30
 
     goto :goto_0
 
@@ -760,27 +760,27 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x7
+    const/16 v0, 0xc
 
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0x9
+    const/16 v0, 0x14
 
     goto :goto_0
 
     :cond_4
-    const/16 v0, 0x18
+    const/16 v0, 0x30
 
     goto :goto_0
 
     :cond_5
-    const/16 v0, 0x8
+    const/16 v0, 0xc
 
     goto :goto_0
 
     :cond_6
-    const/16 v0, 0x8
+    const/16 v0, 0xc
 
     goto :goto_0
 
