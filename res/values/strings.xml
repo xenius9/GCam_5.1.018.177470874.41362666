@@ -1046,8 +1046,9 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="pref_aemode_6">1/100 sec min</string>
     <string name="pref_aemode_7">1/200 sec min</string>
     <string name="pref_aemode_8">Slow shutter X2</string>
-    <string name="pref_aemode_9">Slow shutter X4</string>
-    <string name="pref_aemode_10">Slow shutter X8</string>
+    <string name="pref_aemode_9">Slow shutter X3</string>
+    <string name="pref_aemode_10">Slow shutter X4</string>
+    <string name="pref_aemode_11">Slow shutter X8</string>
     <string name="pref_antibandingmode_title">HDR+ antibanding mode No-ZSL</string>
     <string name="pref_antibandingmode_default">0</string>
     <string name="pref_abmode_0">Turn-off</string>

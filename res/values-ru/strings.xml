@@ -835,8 +835,9 @@
     <string name="pref_aemode_6">1/100 сек.минимум</string>
     <string name="pref_aemode_7">1/200 сек.минимум</string>
     <string name="pref_aemode_8">Медленный затвор X2</string>
-    <string name="pref_aemode_9">Медленный затвор X4</string>
-    <string name="pref_aemode_10">Медленный затвор X8</string>
+    <string name="pref_aemode_9">Медленный затвор X3</string>
+    <string name="pref_aemode_10">Медленный затвор X4</string>
+    <string name="pref_aemode_11">Медленный затвор X8</string>
     <string name="pref_antibandingmode_title">"Устранение мерцания
 в режиме HDR+ No-ZSL"</string>
     <string name="pref_abmode_0">Отключено</string>

@@ -308,8 +308,40 @@
 
     goto/16 :goto_0
 
-    .line 35
+    .line 33
     :pswitch_9
+    new-instance v0, LSlowShutterAEMode;
+
+    const-wide/16 v2, 0x3
+
+    mul-long v8, p8, v2
+
+    const-wide v12, 0x408f400000000000L    # 1000.0
+
+    move/from16 v1, p1
+
+    move/from16 v2, p2
+
+    move/from16 v3, p3
+
+    move/from16 v4, p4
+
+    move/from16 v5, p5
+
+    move-wide/from16 v6, p6
+
+    move/from16 v10, p10
+
+    move-object/from16 v11, p11
+
+    move/from16 v14, p12
+
+    invoke-direct/range {v0 .. v14}, LSlowShutterAEMode;-><init>(FFFIIJJILAEMode$AntibandingMode;DF)V
+
+    goto/16 :goto_0
+
+    .line 35
+    :pswitch_a
     new-instance v0, LSlowShutterAEMode;
 
     const-wide/16 v2, 0x4
@@ -341,7 +373,7 @@
     goto/16 :goto_0
 
     .line 38
-    :pswitch_a
+    :pswitch_b
     new-instance v0, LSlowShutterAEMode;
 
     const-wide/16 v2, 0x8
@@ -388,5 +420,6 @@
         :pswitch_8
         :pswitch_9
         :pswitch_a
+        :pswitch_b
     .end packed-switch
 .end method
