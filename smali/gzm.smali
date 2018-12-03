@@ -31,7 +31,30 @@
 .end method
 
 .method private final a(F)V
-    .locals 2
+    .locals 4
+
+    goto :goto_0
+
+    invoke-static {}, Lgzm;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "max_brigtness"
+
+    const/4 v2, 0x0
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :goto_0
+    sget v0, Lbhn;->sBright:I
+
+    if-nez v0, :cond_0
 
     iget-object v0, p0, Lgzm;->a:Landroid/view/Window;
 
@@ -45,6 +68,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/Window;->setAttributes(Landroid/view/WindowManager$LayoutParams;)V
 
+    :cond_0
     return-void
 .end method
 

@@ -946,4 +946,5 @@
     <string name="pref_smas_0">Авто</string>
     <string name="pref_pmode_title">Режим Портрет на всех моделях</string>
     <string name="pref_all_title_summary_pmode">Работает только на задней камере. Размытие на конфиге Nexus 6.</string>
+    <string name="pref_max_brightness_title">Максимальная яркость видоискателя</string>
 </resources>

@@ -1702,4 +1702,5 @@ The value should not exceed the actual size of the camera module"</string>
     <item type="string" name="APKTOOL_DUMMY_61d">false</item>
     <item type="string" name="APKTOOL_DUMMY_61e">false</item>
     <item type="string" name="APKTOOL_DUMMY_61f">false</item>
+    <string name="pref_max_brightness_title">Maximum viewfinder brightness</string>
 </resources>

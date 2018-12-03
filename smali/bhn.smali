@@ -26,6 +26,8 @@
 
 .field public static sHexagon:I
 
+.field public static sBright:I
+
 .field private static sSharedPref:Landroid/content/SharedPreferences;
 
 
@@ -66,6 +68,8 @@
     invoke-virtual {v0}, Lihk;->c()V
 
     invoke-virtual {p0}, Lbhn;->cgc()I
+
+    invoke-virtual {p0}, Lbhn;->maxbright()I
 
     move-result v1
 
@@ -1697,6 +1701,20 @@
     sput v0, Lbhn;->lockFrames:I
 
     return-void
+.end method
+
+.method public maxbright()I
+    .locals 1
+
+    const-string v0, "pref_max_brightness_key"
+
+    invoke-virtual {p0, v0}, Lbhn;->MenuValue(Ljava/lang/String;)I
+
+    move-result v0
+
+    sput v0, Lbhn;->sBright:I
+
+    return v0
 .end method
 
 .method public m()V

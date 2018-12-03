@@ -68,7 +68,9 @@
 .end method
 
 .method private refreshBrightness(F)V
-    .locals 3
+    .locals 4
+
+    goto :goto_0
 
     invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
@@ -81,6 +83,9 @@
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v0
+
+    :goto_0
+    sget v0, Lbhn;->sBright:I
 
     if-eqz v0, :cond_0
 
