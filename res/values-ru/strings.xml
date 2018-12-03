@@ -406,7 +406,7 @@
     <string name="panorama_name">Панорама</string>
     <string name="panorama_vertical_desc">Вертикальная панорама</string>
     <string name="panorama_wide_desc">Широкоугольная панорама</string>
-    <string name="path">Путь</string>
+    <string name="path">Папка для фотографий</string>
     <string name="pause_video">Пауза</string>
     <string name="pause_video_recording">Приостановить съёмку</string>
     <string name="photo">Фото</string>
@@ -824,7 +824,7 @@
 (8/10/8 burst)"</string>
     <string name="pref_parameters_camera_8">"Pixel ZSL быстрейший
 (8/10/8 burst)"</string>
-    <string name="pref_aemode_title">"Настройки автоэкспозиции
+    <string name="pref_aemode_title">"Настройка автоэкспозиции
 в режиме HDR+ No-ZSL"</string>
     <string name="pref_aemode_0">По умолчанию</string>
     <string name="pref_aemode_1">Медленный затвор</string>
@@ -926,4 +926,23 @@
     <string name="pref_samsung_title">Настройки для Samsung</string>
     <string name="pref_snap_title">Настройки для CPU Snapdragon</string>
     <string name="pref_snap_summary">Отключите все переключатели если CPU Snapdragon</string>
+    <string name="pref_siwl_title">Сглаживание HDR+</string>
+    <string name="override_33">=1023 (По умолч.)=</string>
+    <string name="allow_base_frame_reuse">Разрешить повторное использование базового кадра</string>
+    <string name="cull_metering_frames_using_previous_viewfinder">Отбор кадров с использованием предыдущего видоискателя</string>
+    <string name="ignore_black_pixels">Игнорировать чёрные пиксели</string>
+    <string name="suppress_hot_pixels">Удалять горячие пиксели</string>
+    <string name="resampling_method_override_title">Метод передискретизации изображения</string>
+    <string name="pref_override_0">Метод 0</string>
+    <string name="pref_override_1">Метод 1</string>
+    <string name="pref_override_2">Метод 2</string>
+    <string name="pref_override_3">Метод 3</string>
+    <string name="pref_override_4">Метод 4</string>
+    <string name="pref_override_5">Метод 5</string>
+    <string name="pref_override_6">Метод 6</string>
+    <string name="pref_frame_lock">Заблокировать количество кадров HDR+</string>
+    <string name="pref_frame_lock_summary">Если включено, то количество кадров не зависит от условий освещения</string>
+    <string name="pref_qhdrf_title">HDR+ на фронтальной камере</string>
+    <string name="pref_qhdrf_summary">Включение HDR+ для фронтальной камеры</string>
+    <string name="pref_smas_0">Авто</string>
 </resources>

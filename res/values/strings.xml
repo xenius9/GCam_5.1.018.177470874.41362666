@@ -1534,16 +1534,49 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="pref_bitrate_10">90 Mbps</string>
     <string name="pref_bitrate_11">100 Mbps</string>
     <string name="resampling_method_override_default">1023</string>
-    <string name="override_0">63</string>
-    <string name="override_1">127</string>
-    <string name="override_2">255</string>
-    <string name="override_3">383</string>
-    <string name="override_4">511</string>
-    <string name="override_5">639</string>
-    <string name="override_6">767</string>
-    <string name="override_7">895</string>
-    <string name="override_8">959</string>
-    <string name="override_9">1023 (Default)</string>
+    <string name="override_0">0</string>
+    <string name="override_1">1</string>
+    <string name="override_2">=63=</string>
+    <string name="override_3">=127=</string>
+    <string name="override_4">=255=</string>
+    <string name="override_5">=383=</string>
+    <string name="override_6">=511=</string>
+    <string name="override_7">519</string>
+    <string name="override_8">535</string>
+    <string name="override_9">551</string>
+    <string name="override_10">567</string>
+    <string name="override_11">583</string>
+    <string name="override_12">599</string>
+    <string name="override_13">615</string>
+    <string name="override_14">631</string>
+    <string name="override_15">=639=</string>
+    <string name="override_16">671</string>
+    <string name="override_17">703</string>
+    <string name="override_18">735</string>
+    <string name="override_19">751</string>
+    <string name="override_20">=767=</string>
+    <string name="override_21">783</string>
+    <string name="override_22">815</string>
+    <string name="override_23">847</string>
+    <string name="override_24">879</string>
+    <string name="override_25">=895=</string>
+    <string name="override_26">911</string>
+    <string name="override_27">927</string>
+    <string name="override_28">943</string>
+    <string name="override_29">=959=</string>
+    <string name="override_30">975</string>
+    <string name="override_31">991</string>
+    <string name="override_32">1007</string>
+    <string name="override_33">=1023*(Default)=</string>
+    <string name="override_34">1055</string>
+    <string name="override_35">1087</string>
+    <string name="override_36">1119</string>
+    <string name="override_37">1151</string>
+    <string name="override_38">1183</string>
+    <string name="override_39">1215</string>
+    <string name="override_40">1231</string>
+    <string name="override_41">1247</string>
+    <string name="override_42">1255</string>
     <string name="allow_base_frame_reuse">Allow base frame reuse</string>
     <string name="cull_metering_frames_using_previous_viewfinder">Cull metering frames using previous viewfinder</string>
     <string name="ignore_black_pixels">Ignore black pixels</string>

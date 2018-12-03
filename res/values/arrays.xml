@@ -1407,18 +1407,84 @@
         <item>@string/override_7</item>
         <item>@string/override_8</item>
         <item>@string/override_9</item>
+        <item>@string/override_10</item>
+        <item>@string/override_11</item>
+        <item>@string/override_12</item>
+        <item>@string/override_13</item>
+        <item>@string/override_14</item>
+        <item>@string/override_15</item>
+        <item>@string/override_16</item>
+        <item>@string/override_17</item>
+        <item>@string/override_18</item>
+        <item>@string/override_19</item>
+        <item>@string/override_20</item>
+        <item>@string/override_21</item>
+        <item>@string/override_22</item>
+        <item>@string/override_23</item>
+        <item>@string/override_24</item>
+        <item>@string/override_25</item>
+        <item>@string/override_26</item>
+        <item>@string/override_27</item>
+        <item>@string/override_28</item>
+        <item>@string/override_29</item>
+        <item>@string/override_30</item>
+        <item>@string/override_31</item>
+        <item>@string/override_32</item>
+        <item>@string/override_33</item>
+        <item>@string/override_34</item>
+        <item>@string/override_35</item>
+        <item>@string/override_36</item>
+        <item>@string/override_37</item>
+        <item>@string/override_38</item>
+        <item>@string/override_39</item>
+        <item>@string/override_40</item>
+        <item>@string/override_41</item>
+        <item>@string/override_42</item>
     </string-array>
     <string-array name="override_entryvalues">
+        <item>0</item>
+        <item>1</item>
         <item>63</item>
         <item>127</item>
         <item>255</item>
         <item>383</item>
         <item>511</item>
+        <item>519</item>
+        <item>535</item>
+        <item>551</item>
+        <item>567</item>
+        <item>583</item>
+        <item>599</item>
+        <item>615</item>
+        <item>631</item>
         <item>639</item>
+        <item>671</item>
+        <item>703</item>
+        <item>735</item>
+        <item>751</item>
         <item>767</item>
+        <item>783</item>
+        <item>815</item>
+        <item>847</item>
+        <item>879</item>
         <item>895</item>
+        <item>911</item>
+        <item>927</item>
+        <item>943</item>
         <item>959</item>
+        <item>975</item>
+        <item>991</item>
+        <item>1007</item>
         <item>1023</item>
+        <item>1055</item>
+        <item>1087</item>
+        <item>1119</item>
+        <item>1151</item>
+        <item>1183</item>
+        <item>1215</item>
+        <item>1231</item>
+        <item>1247</item>
+        <item>1255</item>
     </string-array>
     <string-array name="pref_override_entries">
         <item>@string/pref_override_0</item>
