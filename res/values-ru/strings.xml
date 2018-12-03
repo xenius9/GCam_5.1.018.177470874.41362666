@@ -859,7 +859,7 @@
     <string name="pref_tuningback_title">Настройки основной камеры</string>
     <string name="pref_tuningfront_title">Настройки фронтальной камеры</string>
     <string name="setting_basemodel_title">Базовая модель</string>
-    <string name="pref_tuningmode_title">Включить ручные настройки шумодава</string>
+    <string name="pref_tuningmode_title">Включить ручные настройки шумоподавления</string>
     <string name="setting_noise_model_ao_title">Смещение шума А</string>
     <string name="setting_noise_model_bo_title">Смещение шума Б</string>
     <string name="setting_noise_model_as_title">Шкала шума А</string>
@@ -876,7 +876,7 @@
     <string name="setting_denoise_revert_1_title">Коэффициент отмены шумоподавления при среднем свете</string>
     <string name="setting_denoise_revert_2_title">Коэффициент отмены шумоподавления при хорошем свете</string>
     <string name="pref_portraitzoom_title">Увеличенный масштаб съёмки</string>
-    <string name="pref_front_fixbayerpattern_title">Корректировка преобразования Байера на фронтальной камере S7 Exynos</string>
+    <string name="pref_front_fixbayerpattern_title">Корректировка преобразования Байера на фронтальной камере устройств на Exynos CPU</string>
     <string name="pref_front_fixwhitelevel_title">Корректировка уровня белого фронтальной камеры на S7 Exynos</string>
     <string name="pref_portraitsinglefolder_title">Сохранять фото в общую папку</string>
     <string name="pref_all_title_summary_psinglefolder">Если да, рекомендуется включить camera.use_photos в настройках разработчика</string>
@@ -946,4 +946,6 @@
     <string name="pref_pmode_title">Режим Портрет на всех моделях</string>
     <string name="pref_all_title_summary_pmode">Работает только на задней камере. Размытие на конфиге Nexus 6.</string>
     <string name="pref_max_brightness_title">Максимальная яркость видоискателя</string>
+    <string name="pref_fronthdrfix_title">Фикс HDR+ для фронтальной камеры</string>
+    <string name="pref_fronthdrfix_summary">Исправление работы HDR+ на фронтальной камере.</string>
 </resources>
