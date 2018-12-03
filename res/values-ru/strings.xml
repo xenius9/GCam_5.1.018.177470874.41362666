@@ -850,9 +850,7 @@
     <string name="pref_meteringmode_2">Матричный</string>
     <string name="pref_meteringmode_3">Контролируется Google камерой</string>
     <string name="pref_portraitzsl_title">Портрет в режиме ZSL</string>
-    <string name="pref_hdrplusmulti_title">"Недоэкспонирование в режиме
-HDR+ No-ZSL"</string>
-    <string name="pref_hdrplusmulti_75">75% (По умолчанию)</string>
+    <string name="pref_hdrplusmulti_title">Экспокоррекция HDR+</string>
     <string name="pref_hdrdenoiseback_title">Понижение шума основной камеры в режиме HDR+</string>
     <string name="pref_hdrdenoisefront_title">Понижение шума фронтальной камеры в режиме HDR+</string>
     <string name="pref_awb_title">Регулировка баланса белого в режиме HDR+</string>

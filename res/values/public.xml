@@ -3926,14 +3926,6 @@
     <public type="string" name="pref_portraitzsl_title" id="0x7f11040a" />
     <public type="string" name="pref_hdrplusmulti_title" id="0x7f11040b" />
     <public type="string" name="pref_hdrplusmulti_default" id="0x7f11040c" />
-    <public type="string" name="pref_hdrplusmulti_0" id="0x7f11040d" />
-    <public type="string" name="pref_hdrplusmulti_25" id="0x7f11040e" />
-    <public type="string" name="pref_hdrplusmulti_50" id="0x7f11040f" />
-    <public type="string" name="pref_hdrplusmulti_75" id="0x7f110410" />
-    <public type="string" name="pref_hdrplusmulti_100" id="0x7f110411" />
-    <public type="string" name="pref_hdrplusmulti_125" id="0x7f110412" />
-    <public type="string" name="pref_hdrplusmulti_150" id="0x7f110413" />
-    <public type="string" name="pref_hdrplusmulti_200" id="0x7f110414" />
     <public type="string" name="pref_hdrdenoiseback_title" id="0x7f110415" />
     <public type="string" name="pref_hdrdenoisefront_title" id="0x7f110416" />
     <public type="string" name="pref_hdrdenoise_default" id="0x7f110417" />

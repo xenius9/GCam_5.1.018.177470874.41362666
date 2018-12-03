@@ -637,23 +637,89 @@
         <item>2</item>
     </string-array>
     <string-array name="pref_hdrplusmulti_entries">
-        <item>@string/pref_hdrplusmulti_0</item>
+        <item>@string/pref_hdrplusmulti_1</item>
+        <item>@string/pref_hdrplusmulti_2</item>
+        <item>@string/pref_hdrplusmulti_3</item>
+        <item>@string/pref_hdrplusmulti_4</item>
+        <item>@string/pref_hdrplusmulti_5</item>
+        <item>@string/pref_hdrplusmulti_6</item>
+        <item>@string/pref_hdrplusmulti_7</item>
+        <item>@string/pref_hdrplusmulti_8</item>
+        <item>@string/pref_hdrplusmulti_9</item>
+        <item>@string/pref_hdrplusmulti_10</item>
+        <item>@string/pref_hdrplusmulti_11</item>
+        <item>@string/pref_hdrplusmulti_12</item>
+        <item>@string/pref_hdrplusmulti_13</item>
+        <item>@string/pref_hdrplusmulti_14</item>
+        <item>@string/pref_hdrplusmulti_15</item>
+        <item>@string/pref_hdrplusmulti_16</item>
+        <item>@string/pref_hdrplusmulti_17</item>
+        <item>@string/pref_hdrplusmulti_18</item>
+        <item>@string/pref_hdrplusmulti_19</item>
+        <item>@string/pref_hdrplusmulti_20</item>
+        <item>@string/pref_hdrplusmulti_21</item>
+        <item>@string/pref_hdrplusmulti_22</item>
+        <item>@string/pref_hdrplusmulti_23</item>
+        <item>@string/pref_hdrplusmulti_24</item>
         <item>@string/pref_hdrplusmulti_25</item>
-        <item>@string/pref_hdrplusmulti_50</item>
-        <item>@string/pref_hdrplusmulti_75</item>
-        <item>@string/pref_hdrplusmulti_100</item>
-        <item>@string/pref_hdrplusmulti_125</item>
-        <item>@string/pref_hdrplusmulti_150</item>
-        <item>@string/pref_hdrplusmulti_200</item>
+        <item>@string/pref_hdrplusmulti_26</item>
+        <item>@string/pref_hdrplusmulti_27</item>
+        <item>@string/pref_hdrplusmulti_28</item>
+        <item>@string/pref_hdrplusmulti_29</item>
+        <item>@string/pref_hdrplusmulti_30</item>
+        <item>@string/pref_hdrplusmulti_31</item>
+        <item>@string/pref_hdrplusmulti_32</item>
+        <item>@string/pref_hdrplusmulti_33</item>
+        <item>@string/pref_hdrplusmulti_34</item>
+        <item>@string/pref_hdrplusmulti_35</item>
+        <item>@string/pref_hdrplusmulti_36</item>
+        <item>@string/pref_hdrplusmulti_37</item>
+        <item>@string/pref_hdrplusmulti_38</item>
+        <item>@string/pref_hdrplusmulti_39</item>
+        <item>@string/pref_hdrplusmulti_40</item>
+        <item>@string/pref_hdrplusmulti_41</item>
     </string-array>
     <string-array name="pref_hdrplusmulti_entryvalues">
         <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
         <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
         <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
         <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
         <item>100</item>
+        <item>105</item>
+        <item>110</item>
+        <item>115</item>
+        <item>120</item>
         <item>125</item>
+        <item>130</item>
+        <item>135</item>
+        <item>140</item>
+        <item>145</item>
         <item>150</item>
+        <item>155</item>
+        <item>160</item>
+        <item>165</item>
+        <item>170</item>
+        <item>175</item>
+        <item>180</item>
+        <item>185</item>
+        <item>190</item>
+        <item>195</item>
         <item>200</item>
     </string-array>
     <string-array name="pref_hdrdenoise_entries">
