@@ -881,7 +881,7 @@ Move device slowly"</string>
     <string name="pref_input_model_Tai">Pixel 2 XL</string>
     <string name="pref_input_model_Wall">Pixel 2</string>
     <string name="pref_config_camera_title">Config. HDR+ camera</string>
-    <string name="pref_config_camera_default">3</string>
+    <string name="pref_config_camera_default">9</string>
     <string name="pref_config_camera_0">AUTO</string>
     <string name="pref_config_camera_1">Pixel 2016 Tuning</string>
     <string name="pref_config_camera_2">Experimental Features (Pixel)</string>
@@ -1119,7 +1119,7 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="pref_hdrplusmulti_41">-100%</string>
     <string name="pref_hdrdenoiseback_title">HDR+ denoise multiplier back</string>
     <string name="pref_hdrdenoisefront_title">HDR+ denoise multiplier front</string>
-    <string name="pref_hdrdenoise_default">160</string>
+    <string name="pref_hdrdenoise_default">100</string>
     <string name="pref_hdrdenoise_100">100%</string>
     <string name="pref_hdrdenoise_110">110%</string>
     <string name="pref_hdrdenoise_120">120%</string>
