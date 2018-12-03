@@ -2,7 +2,7 @@
 <PreferenceCategory android:title="@string/pref_category_about" android:key="_pref_category_about"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceScreen android:icon="@drawable/ic_help_white_48dp" android:layout="@layout/preference_with_margin" android:title="@string/pref_category_about" android:key="pref_category_about">
-        <PreferenceScreen android:icon="@drawable/ic_local_library_white_48dp" android:layout="@layout/preference_with_margin" android:title="@string/about_dev_6_title" android:summary="@string/about_dev_6_summary">
+        <PreferenceScreen android:icon="@drawable/ic_local_library_white_48dp" android:layout="@layout/hide" android:title="@string/about_dev_6_title" android:summary="@string/about_dev_6_summary">
             <intent android:action="android.intent.action.VIEW" android:data="https://tinyurl.com/y7wrt5fg" />
         </PreferenceScreen>
         <PreferenceScreen android:icon="@drawable/ic_google" android:layout="@layout/preference_with_margin" android:title="@string/about_dev_title">
@@ -10,14 +10,14 @@
         </PreferenceScreen>
         <PreferenceScreen android:icon="@drawable/ic_android_white_36dp" android:layout="@layout/preference_with_margin" android:title="@string/about_dev_1_title" android:summary="@string/about_dev_1_summary" />
         <PreferenceScreen android:icon="@drawable/ic_android_white_36dp" android:layout="@layout/preference_with_margin" android:title="@string/about_dev_2_title" android:summary="@string/about_dev_2_summary">
-            <intent android:action="android.intent.action.VIEW" android:data="https://forum.xda-developers.com/member.php?u=4456903" />
+            <intent android:action="android.intent.action.VIEW" android:data="http://4pda.ru/forum/index.php?showuser=270835" />
         </PreferenceScreen>
         <PreferenceScreen android:icon="@drawable/ic_info_outline_white_48dp" android:layout="@layout/preference_with_margin" android:title="@string/about_dev_3_title" android:summary="@string/about_dev_3_summary" />
-        <PreferenceScreen android:icon="@drawable/ic_update" android:layout="@layout/preference_with_margin" android:title="@string/about_dev_4_title" android:summary="@string/about_dev_4_summary">
-            <intent android:action="android.intent.action.VIEW" android:data="https://forum.xda-developers.com/galaxy-s8/themes/apps-googles-cameras-ports-t3778837" />
+        <PreferenceScreen android:icon="@drawable/ic_update" android:layout="@layout/hide" android:title="@string/about_dev_4_title" android:summary="@string/about_dev_4_summary">
+            <intent android:action="android.intent.action.VIEW" android:data="" />
         </PreferenceScreen>
-        <PreferenceScreen android:icon="@drawable/ic_telegram" android:layout="@layout/preference_with_margin" android:title="@string/about_dev_5_title" android:summary="@string/about_dev_5_summary">
-            <intent android:action="android.intent.action.VIEW" android:data="https://t.me/joinchat/CaDORE32mqEN45EflrK7rA" />
+        <PreferenceScreen android:icon="@drawable/ic_telegram" android:layout="@layout/hide" android:title="@string/about_dev_5_title" android:summary="@string/about_dev_5_summary">
+            <intent android:action="android.intent.action.VIEW" android:data="" />
         </PreferenceScreen>
     </PreferenceScreen>
 </PreferenceCategory>

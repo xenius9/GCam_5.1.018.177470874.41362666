@@ -74,7 +74,7 @@
     <string name="all_photos">ВСЕ ФОТО</string>
     <string name="animation">Анимация</string>
     <string name="aperture">Диафрагма</string>
-    <string name="app_name">Камера Google</string>
+    <string name="app_name">Камера HDR+</string>
     <string name="authentication_error">Ошибка аутентификации</string>
     <string name="auto">Авто</string>
     <string name="auto_flash_indicator_chip">Сработает вспышка</string>
@@ -523,7 +523,7 @@
     <string name="pref_camera_whitebalance_label_incandescent">ЛАМПА НАКАЛИВАНИЯ</string>
     <string name="pref_camera_whitebalance_title">Баланс белого</string>
     <string name="pref_category_about">О приложении</string>
-    <string name="pref_category_advanced">Другие настройки</string>
+    <string name="pref_category_advanced">Обработка изображения</string>
     <string name="pref_category_general">Общие</string>
     <string name="pref_category_photo_sphere_and_panorama">Фотосфера и панорамные снимки</string>
     <string name="pref_category_resolution_quality">Разрешение и качество</string>
@@ -659,10 +659,10 @@
     <string name="setting_default_camera">Камера по умолчанию</string>
     <string name="setting_front_camera_photo">Разрешение фронтальной камеры</string>
     <string name="setting_front_camera_video">Разрешение фронтальной камеры</string>
-    <string name="setting_general">Общие</string>
+    <string name="setting_general">Основные</string>
     <string name="setting_google_feedback">Отправить отзыв</string>
     <string name="setting_google_help">Справка</string>
-    <string name="setting_google_help_and_feedback">Другое</string>
+    <string name="setting_google_help_and_feedback">Прочие настройки</string>
     <string name="setting_location">Местоположение</string>
     <string name="setting_off">Выкл.</string>
     <string name="setting_on">Вкл.</string>
@@ -810,7 +810,6 @@
 ... + ...
 Жёлтый"</string>
     <string name="pref_qjpg_title">Качество сжатия фото JPG в HDR+</string>
-    <string name="pref_qjpg_97">97% (По умолчанию)</string>
     <string name="pref_compress_dng_title">Сжатие файлов RAW(*.DNG)</string>
     <string name="pref_all_title_summary_sbe">При удержании кнопки спуска, камера сделает серию фотоснимков</string>
     <string name="pref_refocusmb_title">Разрешение в режиме \"Размытие\"</string>
@@ -861,7 +860,7 @@
     <string name="pref_tuningback_title">Настройки основной камеры</string>
     <string name="pref_tuningfront_title">Настройки фронтальной камеры</string>
     <string name="setting_basemodel_title">Базовая модель</string>
-    <string name="pref_tuningmode_title">Включить дополнительное улучшение</string>
+    <string name="pref_tuningmode_title">Включить ручные настройки шумодава</string>
     <string name="setting_noise_model_ao_title">Смещение шума А</string>
     <string name="setting_noise_model_bo_title">Смещение шума Б</string>
     <string name="setting_noise_model_as_title">Шкала шума А</string>
@@ -899,15 +898,15 @@
     <string name="pref_hexagon_0">@string/auto</string>
     <string name="pref_hexagon_1">Да</string>
     <string name="pref_hexagon_2">Нет</string>
-    <string name="about_dev_title">Камеры Google</string>
+    <string name="about_dev_title">Камера Google</string>
     <string name="about_dev_1_title">Разработчики</string>
     <string name="about_dev_2_title">Мод от</string>
     <string name="about_dev_3_title">Версия</string>
     <string name="about_dev_4_title">Тема на XDA</string>
     <string name="about_dev_5_title">Группа в Telegram</string>
     <string name="about_dev_6_title">Руководство</string>
-    <string name="pref_livehdr_summary">Более высокий контраст. Включать при хорошем освещении</string>
-    <string name="hlsat_title">Насыщенность света</string>
+    <string name="pref_livehdr_summary">Расширение дин.диапазона, уменьшение "радуги" на устройствах Samsung</string>
+    <string name="hlsat_title">Насыщенность светлых участков изображения</string>
     <string name="ssat_title">Насыщенность теней</string>
     <string name="pref_bitrate_title">Битрейт видео</string>
     <string name="pref_tuningsettings_title">Расширенные настройки</string>
@@ -942,7 +941,9 @@
     <string name="pref_override_6">Метод 6</string>
     <string name="pref_frame_lock">Заблокировать количество кадров HDR+</string>
     <string name="pref_frame_lock_summary">Если включено, то количество кадров не зависит от условий освещения</string>
-    <string name="pref_qhdrf_title">HDR+ на фронтальной камере</string>
+    <string name="pref_qhdrf_title">Включить HDR+ на фронтальной камере</string>
     <string name="pref_qhdrf_summary">Включение HDR+ для фронтальной камеры</string>
     <string name="pref_smas_0">Авто</string>
+    <string name="pref_pmode_title">Режим Портрет на всех моделях</string>
+    <string name="pref_all_title_summary_pmode">Работает только на задней камере. Размытие на конфиге Nexus 6.</string>
 </resources>
