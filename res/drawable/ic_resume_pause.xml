@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="ic_resume_pause" android:height="24.0dip" android:width="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="shape_layer_5">
+        <clip-path android:name="mask_3" />
+        <group android:name="rectangle_3">
+            <path android:name="rectangle_path_3" />
+        </group>
+    </group>
+    <group android:name="shape_layer_6">
+        <clip-path android:name="mask_4" />
+        <group android:name="rectangle_4">
+            <path android:name="rectangle_path_4" />
+        </group>
+    </group>
+</vector>

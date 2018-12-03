@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_selfie" android:enabled="false">
+        <intent android:targetPackage="com.google.android.GoogleCamera" android:action="android.media.action.STILL_IMAGE_CAMERA" android:targetClass="com.google.android.apps.camera.legacy.app.activity.CameraImageActivity">
+            <extra android:name="android.intent.extra.USE_FRONT_CAMERA" android:value="true" />
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_video" android:enabled="false">
+        <intent android:targetPackage="com.google.android.GoogleCamera" android:action="android.media.action.VIDEO_CAMERA" android:targetClass="com.android.camera.CameraVideoShortcutActivity" />
+    </shortcut>
+</shortcuts>

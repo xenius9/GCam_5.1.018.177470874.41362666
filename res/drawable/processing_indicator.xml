@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="processing_indicator" android:height="150.0dip" android:width="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="_ring">
+        <group android:name="_ring_pivot">
+            <group android:name="ellipse_1">
+                <path android:name="path_1" />
+            </group>
+        </group>
+    </group>
+    <group android:name="_spinner">
+        <group android:name="_spinner_pivot">
+            <group android:name="ellipse_2">
+                <path android:name="path_2" />
+            </group>
+        </group>
+    </group>
+</vector>

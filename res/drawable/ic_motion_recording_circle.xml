@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="ic_motion_recording" android:height="24.0dip" android:width="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="inside_white_">
+        <group android:name="inside_white__pivot">
+            <group android:name="circle">
+                <path android:name="path_3" />
+            </group>
+        </group>
+    </group>
+    <group android:name="rotation" android:scaleX="0.24" android:scaleY="0.24">
+        <group android:name="rotation_pivot">
+            <group android:name="_dot" android:scaleX="4.16667" android:scaleY="4.16667">
+                <group android:name="_dot_pivot">
+                    <group android:name="group_1">
+                        <path android:name="path_5" />
+                    </group>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group android:name="_offset_rotation" android:scaleX="0.24" android:scaleY="0.24" android:rotation="-20.0">
+        <group android:name="_offset_rotation_pivot">
+            <group android:name="_ring" android:scaleX="4.16667" android:scaleY="4.16667">
+                <group android:name="_ring_pivot">
+                    <group android:name="ellipse_1">
+                        <path android:name="path_1" />
+                    </group>
+                </group>
+            </group>
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="ic_burst" android:height="48.0dip" android:width="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="layer_8_outlines">
+        <group android:name="layer_8_outlines_pivot">
+            <clip-path android:name="mask_1" />
+            <group android:name="group_1">
+                <path android:name="path_1" />
+            </group>
+        </group>
+    </group>
+    <group android:name="layer_7_outlines">
+        <group android:name="layer_7_outlines_pivot">
+            <group android:name="group_2">
+                <path android:name="path_2" />
+            </group>
+        </group>
+    </group>
+    <group android:name="layer_3_outlines">
+        <group android:name="layer_3_outlines_pivot">
+            <clip-path android:name="mask_2" />
+            <group android:name="group_3">
+                <path android:name="path_3" />
+            </group>
+        </group>
+    </group>
+    <group android:name="layer_2_outlines">
+        <group android:name="layer_2_outlines_pivot">
+            <clip-path android:name="mask_3" />
+            <group android:name="group_4">
+                <path android:name="path_4" />
+            </group>
+        </group>
+    </group>
+    <group android:name="layer_3_outlines_2">
+        <group android:name="layer_3_outlines_2_pivot">
+            <clip-path android:name="mask_4" />
+            <group android:name="group_5">
+                <path android:name="path_5" />
+            </group>
+        </group>
+    </group>
+    <group android:name="layer_2_outlines_2">
+        <group android:name="layer_2_outlines_2_pivot">
+            <clip-path android:name="mask_5" />
+            <group android:name="group_6">
+                <path android:name="path_6" />
+            </group>
+        </group>
+    </group>
+</vector>

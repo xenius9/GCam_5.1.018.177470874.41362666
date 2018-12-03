@@ -1,0 +1,87 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: GCam_5.1.018.177470874.41362666.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+- res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+- res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+- res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+- res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+- res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/actionbar_translucent.9.png
+- res/drawable-xhdpi-v4/bt_bg_speeddial_name.9.png
+- res/drawable-xhdpi-v4/bt_bg_speeddial_name_pressed.9.png
+- res/drawable-xhdpi-v4/cling.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-xhdpi-v4/list_pressed_holo_light.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-xhdpi-v4/panel_undo_holo.9.png
+- res/drawable-xhdpi-v4/progress_bg.9.png
+- res/drawable-xhdpi-v4/progress_primary.9.png
+- res/drawable-xhdpi-v4/refocus_arrow_bottom.9.png
+- res/drawable-xhdpi-v4/refocus_arrow_top.9.png
+- res/drawable-xhdpi-v4/stgs_cling.9.png
+- res/drawable-xhdpi-v4/stgs_cling_pressed.9.png
+- jpg
+- ogg
+- bin
+- assets/com.google.android.vision.face/models/classification/frontal_face_classifiers.4/is_left_eye_open-y0.12-wmd.bin
+- assets/com.google.android.vision.face/models/classification/frontal_face_classifiers.4/is_right_eye_open-y0.12-wmd.bin
+- assets/com.google.android.vision.face/models/classification/frontal_face_classifiers.4/is_smiling-y0.5-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/bottom_mouth-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/left_cheek-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/left_mouth-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/right_cheek-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-3-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/right_mouth-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-r0-ri30.4a-v24-tree7-2-wmd.bin
+- assets/com.google.android.vision.face/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rn30-ri30.5-v24-tree7-2-wmd.bin
+- assets/com.google.android.vision.face/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rp30-ri30.5-v24-tree7-2-wmd.bin
+- assets/com.google.android.vision.face/models/detection/yaw_roll_face_detectors.7.1/pose-r.8.1.bin
+- assets/com.google.android.vision.face/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '27'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  build-data.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.3
+versionInfo:
+  versionCode: '41364271'
+  versionName: 5.1.018.177624777

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="camera_back_front" android:height="48.0dip" android:width="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="layer_4_outlines_2">
+        <group android:name="layer_4_outlines_2_pivot">
+            <group android:name="group_2">
+                <path android:name="path_1" />
+            </group>
+        </group>
+    </group>
+    <group android:name="shape_layer_2" android:scaleX="0.8">
+        <group android:name="group_1" android:scaleY="0.99923">
+            <path android:name="path_2" />
+        </group>
+    </group>
+    <group android:name="layer_2_outlines" android:scaleX="0.8" android:scaleY="0.8">
+        <group android:name="layer_2_outlines_pivot">
+            <group android:name="group_3">
+                <path android:name="path_3" />
+            </group>
+        </group>
+    </group>
+</vector>

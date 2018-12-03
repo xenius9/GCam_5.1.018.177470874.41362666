@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="ic_motion_recording_red" android:height="24.0dip" android:width="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="inside_red">
+        <group android:name="inside_red_pivot">
+            <group android:name="circle_0">
+                <path android:name="path_4" />
+            </group>
+        </group>
+    </group>
+</vector>
