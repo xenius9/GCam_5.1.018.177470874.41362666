@@ -271,7 +271,11 @@
 .method public static getPhaseAF()I
     .locals 1
 
-    const v0, 0x1
+    const-string/jumbo v0, "pref_phaseaf_key"
+
+    invoke-static {v0}, Lbhn;->staticMenuValue(Ljava/lang/String;)I
+
+    move-result v0
 
     return v0
 .end method
