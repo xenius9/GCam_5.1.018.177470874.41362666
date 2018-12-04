@@ -65,7 +65,7 @@
 
     const-string v1, "camera:filmstrip_tiny_bounds"
 
-    const/16 v2, 0x400
+    const/16 v2, 0x200
 
     invoke-static {v0, v1, v2}, Lhyx;->a(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
@@ -81,7 +81,7 @@
 
     const-string v1, "camera:filmstrip_maximum_smooth_pixels"
 
-    const v2, 0x989680
+    const v2, 0x4c4b40
 
     invoke-static {v0, v1, v2}, Lhyx;->a(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
@@ -93,7 +93,7 @@
 
     const-string v1, "camera:filmstrip_tiny_bounds"
 
-    const v2, 0x2aea540
+    const v2, 0x15752a0
 
     invoke-static {v0, v1, v2}, Lhyx;->a(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
