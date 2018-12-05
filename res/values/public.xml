@@ -4335,9 +4335,6 @@
     <public type="string" name="pref_override_1" id="0x7f110642" />
     <public type="string" name="pref_override_2" id="0x7f110643" />
     <public type="string" name="pref_override_3" id="0x7f110644" />
-    <public type="string" name="pref_override_4" id="0x7f110645" />
-    <public type="string" name="pref_override_5" id="0x7f110646" />
-    <public type="string" name="pref_override_6" id="0x7f110647" />
     <public type="string" name="pref_frame_lock" id="0x7f110648" />
     <public type="string" name="pref_frame_lock_summary" id="0x7f110649" />
     <public type="string" name="APKTOOL_DUMMY_57a" id="0x7f11057a" />

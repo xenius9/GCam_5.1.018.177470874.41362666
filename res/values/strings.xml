@@ -1596,13 +1596,10 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="ignore_black_pixels">Ignore black pixels</string>
     <string name="suppress_hot_pixels">Suppress hot pixels</string>
     <string name="resampling_method_override_title">Resampling method override</string>
-    <string name="pref_override_0">0</string>
-    <string name="pref_override_1">1</string>
-    <string name="pref_override_2">2</string>
-    <string name="pref_override_3">3</string>
-    <string name="pref_override_4">4</string>
-    <string name="pref_override_5">5</string>
-    <string name="pref_override_6">6</string>
+    <string name="pref_override_0">None</string>
+    <string name="pref_override_1">Lanczos</string>
+    <string name="pref_override_2">Raisr</string>
+    <string name="pref_override_3">Method 3</string>
     <string name="pref_frame_lock">Lock HDR+ frames</string>
     <string name="pref_frame_lock_summary">If enabled the number of HDR+ burst photos will not vary depending on light condition</string>
     <item type="string" name="APKTOOL_DUMMY_57a">false</item>
