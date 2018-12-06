@@ -945,4 +945,11 @@
     <string name="pref_fronthdrfix_summary">Исправление работы HDR+ на фронтальной камере.</string>
     <string name="fix_use_photos_title">Использовать Google Фото</string>
     <string name="pref_phaseaf_title">Фазовый автофокус (PDAF)</string>
+    <string name="libs_title">Выбор гаммы</string>
+    <string name="libs_title_summary">%s</string>
+    <string name="libs_default">0</string>
+    <string name="libs_a">Стоковая от Google</string>
+    <string name="libs_b">Кастомная от Xenius9</string>
+    <string name="libs_c">Кастомная от Iron_kid</string>
+    <string name="libs_d">Кастомная от Fertd De</string>
 </resources>

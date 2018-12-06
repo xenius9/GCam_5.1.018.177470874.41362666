@@ -9,6 +9,7 @@
         <com.google.android.apps.camera.legacy.app.settings.ManagedSwitchPreference android:icon="@drawable/ic_lock" android:layout="@layout/preference_with_margin" android:title="@string/pref_frame_lock" android:key="pref_lock_frames_key" android:summary="@string/pref_frame_lock_summary" android:defaultValue="false" />
         <ListPreference android:icon="@drawable/ic_camera_white_48dp" android:entries="@array/pref_aemode_entries" android:layout="@layout/preference_with_margin" android:title="@string/pref_aemode_title" android:key="pref_aemode_key" android:summary="%s" android:defaultValue="@string/pref_aemode_default" android:entryValues="@array/pref_aemode_entryvalues" />
         <ListPreference android:icon="@drawable/ic_filter_b_and_w_white_48dp" android:entries="@array/pref_hdrplusmulti_entries" android:layout="@layout/preference_with_margin" android:title="@string/pref_hdrplusmulti_title" android:key="pref_hdrplusmulti_key" android:summary="%s" android:defaultValue="@string/pref_hdrplusmulti_default" android:entryValues="@array/pref_hdrplusmulti_entryvalues" />
+        <ListPreference android:icon="@drawable/ic_lib_white_48dp" android:entries="@array/libs_entries" android:layout="@layout/preference_with_margin" android:title="@string/libs_title" android:key="libs_key" android:summary="@string/libs_title_summary" android:defaultValue="@string/libs_default" android:entryValues="@array/libs_entryvalues" />
     </PreferenceCategory>
     <!-- Конец основных настроек -->
     <!-- Фото настройки -->

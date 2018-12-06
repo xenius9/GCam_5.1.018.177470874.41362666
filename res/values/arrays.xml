@@ -1516,4 +1516,16 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+    <string-array name="libs_entries">
+        <item>@string/libs_a</item>
+        <item>@string/libs_b</item>
+        <item>@string/libs_c</item>
+        <item>@string/libs_d</item>
+    </string-array>
+    <string-array name="libs_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>

@@ -1716,4 +1716,11 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="pref_max_brightness_title">Maximum viewfinder brightness</string>
     <string name="fix_use_photos_title">Use Google Photo</string>
     <string name="google_photos_summary">camera.use_photos</string>
+    <string name="libs_title">Select gamma</string>
+    <string name="libs_title_summary">%s</string>
+    <string name="libs_default">0</string>
+    <string name="libs_a">Stock by Google</string>
+    <string name="libs_b">Сustom by Xenius9</string>
+    <string name="libs_c">Сustom by Iron_kid</string>
+    <string name="libs_d">Сustom by Fertd De</string>
 </resources>

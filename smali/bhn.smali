@@ -220,6 +220,18 @@
     goto :goto_0
 .end method
 
+.method public static getLibs()I
+    .locals 1
+
+    const-string/jumbo v0, "libs_key"
+
+    invoke-static {v0}, Lbhn;->staticMenuValue(Ljava/lang/String;)I
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static getLiveHDR()I
     .locals 1
 
