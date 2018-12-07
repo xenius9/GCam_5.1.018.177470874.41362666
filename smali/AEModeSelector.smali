@@ -67,6 +67,21 @@
     :pswitch_4
     const-wide/high16 v12, 0x4022000000000000L    # 9.0
 
+    goto :goto_1
+
+    :pswitch_5
+    const-wide/high16 v12, 0x4018000000000000L    # 6.0
+
+    goto :goto_1
+
+    :pswitch_6
+    const-wide/high16 v12, 0x4010000000000000L    # 4.0
+
+    goto :goto_1
+
+    :pswitch_7
+    const-wide/high16 v12, 0x4000000000000000L    # 2.0
+
     :goto_1
     new-instance v0, LShutterAEModeISO;
 
@@ -94,18 +109,23 @@
 
     goto/16 :goto_0
 
-    :pswitch_5
+    :pswitch_8
     const-wide v12, 0x408f400000000000L    # 1000.0
 
     goto :goto_2
 
-    :pswitch_6
+    :pswitch_9
     const-wide v12, 0x407f400000000000L    # 500.0
 
     goto :goto_2
 
-    :pswitch_7
+    :pswitch_a
     const-wide v12, 0x4069000000000000L    # 200.0
+
+    goto :goto_2
+
+    :pswitch_b
+    const-wide v12, 0x4059000000000000L    # 100.0
 
     :goto_2
     new-instance v0, LShutterAEModeSlow;
@@ -134,32 +154,32 @@
 
     goto/16 :goto_0
 
-    :pswitch_8
+    :pswitch_c
     const-wide/high16 v12, 0x4059000000000000L    # 100.0
 
     goto :goto_3
 
-    :pswitch_9
+    :pswitch_d
     const-wide/high16 v12, 0x4049000000000000L    # 50.0
 
     goto :goto_3
 
-    :pswitch_a
+    :pswitch_e
     const-wide/high16 v12, 0x403e000000000000L    # 30.0
 
     goto :goto_3
 
-    :pswitch_b
+    :pswitch_f
     const-wide/high16 v12, 0x4034000000000000L    # 20.0
 
     goto :goto_3
 
-    :pswitch_c
+    :pswitch_10
     const-wide/high16 v12, 0x4024000000000000L    # 10.0
 
     goto :goto_3
 
-    :pswitch_d
+    :pswitch_11
     const-wide/high16 v12, 0x4014000000000000L    # 5.0
 
     :goto_3
@@ -207,5 +227,9 @@
         :pswitch_b
         :pswitch_c
         :pswitch_d
+        :pswitch_e
+        :pswitch_f
+        :pswitch_10
+        :pswitch_11
     .end packed-switch
 .end method
