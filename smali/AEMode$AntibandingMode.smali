@@ -37,14 +37,12 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .prologue
     const/4 v4, 0x2
 
     const/4 v3, 0x1
 
     const/4 v2, 0x0
 
-    .line 182
     new-instance v0, LAEMode$AntibandingMode;
 
     const-string/jumbo v1, "OFF"
@@ -53,7 +51,6 @@
 
     sput-object v0, LAEMode$AntibandingMode;->OFF:LAEMode$AntibandingMode;
 
-    .line 183
     new-instance v0, LAEMode$AntibandingMode;
 
     const-string/jumbo v1, "HZ50"
@@ -62,7 +59,6 @@
 
     sput-object v0, LAEMode$AntibandingMode;->HZ50:LAEMode$AntibandingMode;
 
-    .line 184
     new-instance v0, LAEMode$AntibandingMode;
 
     const-string/jumbo v1, "HZ60"
@@ -71,7 +67,6 @@
 
     sput-object v0, LAEMode$AntibandingMode;->HZ60:LAEMode$AntibandingMode;
 
-    .line 181
     const/4 v0, 0x3
 
     new-array v0, v0, [LAEMode$AntibandingMode;
@@ -101,8 +96,6 @@
         }
     .end annotation
 
-    .prologue
-    .line 181
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -110,10 +103,7 @@
 
 .method public static valueOf(Ljava/lang/String;)LAEMode$AntibandingMode;
     .locals 1
-    .param p0, "name"    # Ljava/lang/String;
 
-    .prologue
-    .line 181
     const-class v0, LAEMode$AntibandingMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -128,8 +118,6 @@
 .method public static values()[LAEMode$AntibandingMode;
     .locals 1
 
-    .prologue
-    .line 181
     sget-object v0, LAEMode$AntibandingMode;->$VALUES:[LAEMode$AntibandingMode;
 
     invoke-virtual {v0}, [LAEMode$AntibandingMode;->clone()Ljava/lang/Object;
