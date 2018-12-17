@@ -779,12 +779,12 @@
     goto :goto_0
 
     :cond_5
-    const/16 v0, 0xc
+    const/16 v0, 0x10
 
     goto :goto_0
 
     :cond_6
-    const/16 v0, 0xc
+    const/16 v0, 0x8
 
     goto :goto_0
 

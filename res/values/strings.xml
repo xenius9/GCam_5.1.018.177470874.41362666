@@ -610,7 +610,7 @@ Clean your lens for better photo quality."</string>
     <string name="pref_gestures_summary">%1$s, %2$s</string>
     <string name="pref_hdr_plus_control_summary">Show manual control for HDR+. When this control is not shown, HDR+ is on.</string>
     <string name="pref_hdr_plus_control_title">HDR+ control</string>
-    <string name="pref_photosphere_picturesize_default">8mp</string>
+    <string name="pref_photosphere_picturesize_default">12mp</string>
     <string name="pref_photosphere_picturesize_entry_12mp">12M pixels</string>
     <string name="pref_photosphere_picturesize_entry_16mp">16M pixels</string>
     <string name="pref_photosphere_picturesize_entry_8mp">8M pixels</string>
@@ -881,7 +881,7 @@ Move device slowly"</string>
     <string name="pref_input_model_Tai">Pixel 2 XL</string>
     <string name="pref_input_model_Wall">Pixel 2</string>
     <string name="pref_config_camera_title">Config. HDR+ camera</string>
-    <string name="pref_config_camera_default">9</string>
+    <string name="pref_config_camera_default">4</string>
     <string name="pref_config_camera_0">AUTO</string>
     <string name="pref_config_camera_1">Pixel 2016 Tuning</string>
     <string name="pref_config_camera_2">Experimental Features (Pixel)</string>
@@ -895,7 +895,7 @@ Move device slowly"</string>
     <string name="pref_all_title_summary_config">"%s
 In AUTO mode, the config depends on the Model"</string>
     <string name="pref_parameters_camera_title">HDR+ parameters</string>
-    <string name="pref_parameters_camera_default">6</string>
+    <string name="pref_parameters_camera_default">3</string>
     <string name="pref_parameters_camera_0">Default, 8 frames</string>
     <string name="pref_parameters_camera_1">Very low, 3 frames</string>
     <string name="pref_parameters_camera_2">Low, 5 frames</string>
@@ -905,9 +905,9 @@ not for ZSL!"</string>
     <string name="pref_parameters_camera_5">"Very High, 48 frames
 not for ZSL!"</string>
     <string name="pref_parameters_camera_6">"Pixel 2017
-12 frames"</string>
+10 frames"</string>
     <string name="pref_parameters_camera_7">"Pixel 2017 ZSL
-12 frames"</string>
+8 frames"</string>
     <string name="pref_parameters_camera_8">"Pixel 2017 ZSL Fast
 8 frames"</string>
     <string name="setting_sblpf_title">Fix black level Front camera</string>
@@ -1029,9 +1029,9 @@ If enabled, the config of the Nexus6P or Pixels will be used"</string>
     <string name="pref_pmode_title">Switch Lens blur with Portrait mode</string>
     <string name="pref_all_title_summary_pmode">Lens blur works only on Nexus 6 HDR+ camera</string>
     <string name="pref_refocusmb_title">Lens Blur mode megapixels</string>
-    <string name="pref_refocusmb_default">8</string>
+    <string name="pref_refocusmb_default">13</string>
     <string name="pref_refocusmb_5">5 MP</string>
-    <string name="pref_refocusmb_8">8 MP (Default)</string>
+    <string name="pref_refocusmb_8">8 MP</string>
     <string name="pref_refocusmb_10">10 MP</string>
     <string name="pref_refocusmb_13">12,6 MP</string>
     <string name="pref_refocusmb_summary">"%s
@@ -1083,7 +1083,7 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="pref_livehdr_title">Live HDR</string>
     <string name="pref_phaseaf_title">Phase AF</string>
     <string name="pref_portraitzsl_title">Portrait ZSL mode</string>
-    <string name="pref_hdrplusmulti_title">HDR+ Exposure compensation</string>
+    <string name="pref_hdrplusmulti_title">HDR+ frame exposure compensation</string>
     <string name="pref_hdrplusmulti_default">100</string>
     <string name="pref_hdrplusmulti_1">+100%</string>
     <string name="pref_hdrplusmulti_2">+95%</string>
@@ -1534,8 +1534,8 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="sat_48">4.8</string>
     <string name="sat_49">4.9</string>
     <string name="sat_50">5.0</string>
-    <string name="ssat_default">14</string>
-    <string name="hlsat_default">8</string>
+    <string name="ssat_default">16</string>
+    <string name="hlsat_default">10</string>
     <string name="pref_folder_title">@string/path</string>
     <string name="pref_bitrate_title">Bitrate</string>
     <string name="pref_bitrate_default">5</string>

@@ -785,9 +785,9 @@
     <string name="pref_parameters_camera_5">"Очень высокие настройки
 48 кадров, не для ZSL!"</string>
     <string name="pref_parameters_camera_6">"Pixel
-12 кадров"</string>
+10 кадров"</string>
     <string name="pref_parameters_camera_7">"Pixel ZSL
-12 кадров"</string>
+8 кадров"</string>
     <string name="pref_parameters_camera_8">"Pixel ZSL быстрый
 8 кадров"</string>
     <string name="setting_sblpf_title">Настройка уровня чёрного фронтальной камеры</string>
@@ -818,7 +818,6 @@
     <string name="pref_compress_dng_title">Сжатие файлов RAW(*.DNG)</string>
     <string name="pref_all_title_summary_sbe">При удержании кнопки спуска, камера сделает серию фотоснимков</string>
     <string name="pref_refocusmb_title">Разрешение в режиме \"Размытие\"</string>
-    <string name="pref_refocusmb_8">8 MP (По умолчанию)</string>
     <string name="pref_refocusmb_summary">"%s
 Значение не должно превышать реальный размер модуля камеры"</string>
     <string name="pref_all_title_summary_switch">Вам нужно полностью закрыть приложение, изменения вступят в силу при следующем запуске</string>
@@ -845,7 +844,7 @@
     <string name="pref_meteringmode_2">Матричный</string>
     <string name="pref_meteringmode_3">Контролируется Google камерой</string>
     <string name="pref_portraitzsl_title">Портрет в режиме ZSL</string>
-    <string name="pref_hdrplusmulti_title">Экспокоррекция HDR+</string>
+    <string name="pref_hdrplusmulti_title">Покадровая экспокоррекция HDR+</string>
     <string name="pref_hdrdenoiseback_title">Понижение шума основной камеры в режиме HDR+</string>
     <string name="pref_hdrdenoisefront_title">Понижение шума фронтальной камеры в режиме HDR+</string>
     <string name="pref_awb_title">Регулировка баланса белого в режиме HDR+</string>
