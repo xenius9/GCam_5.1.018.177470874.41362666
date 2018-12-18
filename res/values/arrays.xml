@@ -589,6 +589,7 @@
         <item>@string/pref_aemode_13</item>
         <item>@string/pref_aemode_14</item>
         <item>@string/pref_aemode_15</item>
+        <item>@string/pref_aemode_16</item>
         <item>@string/pref_aemode_100</item>
     </string-array>
     <string-array name="pref_aemode_entryvalues">
@@ -608,6 +609,7 @@
         <item>13</item>
         <item>14</item>
         <item>15</item>
+        <item>16</item>
         <item>100</item>
     </string-array>
     <string-array name="pref_antibandingmode_entries">

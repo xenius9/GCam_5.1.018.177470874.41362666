@@ -73,7 +73,7 @@
 
     long-to-double v8, v0
 
-    const-wide v10, 0x412e848000000000L    # 1000000.0
+    const-wide v10, 0x41224f8000000000L    # 600000.0
 
     div-double/2addr v8, v10
 
