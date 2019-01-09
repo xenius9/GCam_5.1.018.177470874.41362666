@@ -22,11 +22,13 @@
 
 .field public static sBitrate:I
 
+.field public static sBright:I
+
 .field public static sFrames:I
 
 .field public static sHexagon:I
 
-.field public static sBright:I
+.field public static sLibs:I
 
 .field private static sSharedPref:Landroid/content/SharedPreferences;
 
@@ -92,6 +94,8 @@
     invoke-virtual {p0}, Lbhn;->isXiaomiNote()V
 
     invoke-virtual {p0}, Lbhn;->isSD845()V
+
+    invoke-virtual {p0}, Lbhn;->setlibs()V
 
     iget-object v0, p0, Lbhn;->b:Lgzz;
 
@@ -1707,20 +1711,6 @@
     return-void
 .end method
 
-.method public maxbright()I
-    .locals 1
-
-    const-string v0, "pref_max_brightness_key"
-
-    invoke-virtual {p0, v0}, Lbhn;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lbhn;->sBright:I
-
-    return v0
-.end method
-
 .method public m()V
     .locals 1
 
@@ -1743,6 +1733,20 @@
     sput v0, Lbhn;->sBitrate:I
 
     goto :goto_0
+.end method
+
+.method public maxbright()I
+    .locals 1
+
+    const-string v0, "pref_max_brightness_key"
+
+    invoke-virtual {p0, v0}, Lbhn;->MenuValue(Ljava/lang/String;)I
+
+    move-result v0
+
+    sput v0, Lbhn;->sBright:I
+
+    return v0
 .end method
 
 .method public pmode()I
@@ -1877,6 +1881,20 @@
     move-result v0
 
     return v0
+.end method
+
+.method public setlibs()V
+    .locals 1
+
+    const-string v0, "libs_key"
+
+    invoke-virtual {p0, v0}, Lbhn;->MenuValue(Ljava/lang/String;)I
+
+    move-result v0
+
+    sput v0, Lbhn;->sLibs:I
+
+    return-void
 .end method
 
 .method public setsAEMode()I

@@ -9,6 +9,8 @@
 # static fields
 .field private static final g:Ljava/lang/String;
 
+.field public static isbackground:Z
+
 
 # instance fields
 .field public d:Lbli;
@@ -63,6 +65,26 @@
     move-result-object v1
 
     invoke-direct {v0, v1}, Ljava/lang/String;-><init>([B)V
+
+    return-object v0
+.end method
+
+.method public static getPath()Ljava/lang/String;
+    .locals 3
+
+    invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
+
+    move-result-object v1
+
+    new-instance v0, Ljava/io/File;
+
+    const-string v2, "DCIM/Camera"
+
+    invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+
+    move-result-object v0
 
     return-object v0
 .end method
@@ -294,6 +316,16 @@
     int-to-float v1, v0
 
     invoke-direct {p0, v1}, Lcom/google/android/apps/camera/legacy/app/activity/main/CameraActivity;->refreshBrightness(F)V
+
+    new-instance v0, Landroid/os/StrictMode$VmPolicy$Builder;
+
+    invoke-direct {v0}, Landroid/os/StrictMode$VmPolicy$Builder;-><init>()V
+
+    invoke-virtual {v0}, Landroid/os/StrictMode$VmPolicy$Builder;->build()Landroid/os/StrictMode$VmPolicy;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/os/StrictMode;->setVmPolicy(Landroid/os/StrictMode$VmPolicy;)V
 
     const/4 v3, 0x1
 
@@ -748,6 +780,8 @@
 
     move-result v1
 
+    invoke-static {p0, v1}, Lcom/google/android/apps/camera/legacy/app/processing/ProcessingService;->setProcessing(Landroid/content/Context;I)V
+
     if-eqz v1, :cond_3
 
     new-instance v0, Lbih;
@@ -833,6 +867,25 @@
     goto :goto_2
 .end method
 
+.method protected onPause()V
+    .locals 1
+
+    invoke-super {p0}, Lbsj;->onPause()V
+
+    invoke-static {p0}, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->checkProcessing(Landroid/content/Context;)I
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    sput-boolean v0, Lcom/google/android/apps/camera/legacy/app/activity/main/CameraActivity;->isbackground:Z
+
+    :cond_0
+    return-void
+.end method
+
 .method protected onResume()V
     .locals 10
 
@@ -911,7 +964,45 @@
 
     invoke-virtual/range {v0 .. v5}, Lcom/google/android/apps/camera/legacy/app/stats/CameraActivitySession;->a(Ljava/lang/String;JJ)V
 
+    invoke-static {p0}, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->checkProcessing(Landroid/content/Context;)I
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    sget-boolean v0, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->isrestart:Z
+
+    if-eqz v0, :cond_1
+
+    const/4 v0, 0x0
+
+    sput-boolean v0, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->isrestart:Z
+
+    new-instance v0, Landroid/content/Intent;
+
+    const-class v1, Lcom/google/android/apps/camera/legacy/app/activity/main/CameraActivity;
+
+    invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    const v1, 0x8000
+
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    const/high16 v1, 0x10000000
+
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    invoke-virtual {p0, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Ljava/lang/System;->exit(I)V
+
     :cond_1
+    const/4 v0, 0x0
+
+    sput-boolean v0, Lcom/google/android/apps/camera/legacy/app/activity/main/CameraActivity;->isbackground:Z
+
     return-void
 .end method
 

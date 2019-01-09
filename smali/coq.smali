@@ -809,7 +809,7 @@
 
     move-result v2
 
-    if-eqz v2, :cond_8
+    if-eqz v2, :cond_9
 
     const/4 v2, 0x1
 
@@ -830,7 +830,7 @@
 
     sget-object v3, Lgmt;->a:Lgmt;
 
-    if-ne v2, v3, :cond_9
+    if-ne v2, v3, :cond_a
 
     const/4 v2, 0x0
 
@@ -839,7 +839,7 @@
 
     invoke-virtual {v0, v2}, Lcom/google/googlex/gcam/ShotParams;->setWb_mode(I)V
 
-    if-eqz p6, :cond_a
+    if-eqz p6, :cond_b
 
     const-string v2, "z"
 
@@ -854,7 +854,7 @@
 
     invoke-virtual {v0, v1}, Lcom/google/googlex/gcam/ShotParams;->setZsl(Z)V
 
-    if-eqz p6, :cond_b
+    if-eqz p6, :cond_c
 
     const/4 v2, 0x1
 
@@ -898,6 +898,37 @@
     move-result v0
 
     invoke-virtual {v7, v0}, Lcom/google/googlex/gcam/Tuning;->setSuppress_hot_pixels(Z)V
+
+    move-object/from16 v0, p0
+
+    const-string v4, "pref_exp_key"
+
+    invoke-direct {v0, v4}, Lcoq;->MenuValue(Ljava/lang/String;)I
+
+    move-result v0
+
+    if-eqz v0, :cond_5
+
+    const v0, 0x45160000    # 2400.0f
+
+    invoke-virtual {v7, v0}, Lcom/google/googlex/gcam/Tuning;->setMax_exposure_time_ms(F)V
+
+    :cond_5
+    invoke-virtual {v7}, Lcom/google/googlex/gcam/Tuning;->getRaw_finish_params()Lcom/google/googlex/gcam/RawFinishParams;
+
+    move-result-object v9
+
+    move-object/from16 v0, p0
+
+    const-string v4, "bl_offset_key"
+
+    invoke-direct {v0, v4}, Lcoq;->MenuValue(Ljava/lang/String;)I
+
+    move-result v0
+
+    int-to-float v0, v0
+
+    invoke-virtual {v9, v0}, Lcom/google/googlex/gcam/RawFinishParams;->setMax_black_level_offset(F)V
 
     invoke-virtual {v7}, Lcom/google/googlex/gcam/Tuning;->getRaw_finish_params()Lcom/google/googlex/gcam/RawFinishParams;
 
@@ -1089,7 +1120,7 @@
 
     invoke-static {v3, v2}, Lbhz;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    if-nez p4, :cond_5
+    if-nez p4, :cond_6
 
     invoke-virtual/range {v22 .. v22}, Lcom/google/googlex/gcam/ShotParams;->getAe()Lcom/google/googlex/gcam/AeShotParams;
 
@@ -1129,7 +1160,7 @@
 
     invoke-static/range {v2 .. v7}, Lcok;->a(Lcom/google/googlex/gcam/AeShotParams;Landroid/graphics/Rect;[Landroid/hardware/camera2/params/MeteringRectangle;Lici;Lgdq;F)V
 
-    :cond_5
+    :cond_6
     const/16 v18, 0x0
 
     move-object/from16 v0, p0
@@ -1150,7 +1181,7 @@
 
     move-result v3
 
-    if-nez v3, :cond_6
+    if-nez v3, :cond_7
 
     move-object/from16 v0, p0
 
@@ -1160,7 +1191,7 @@
 
     move-result v3
 
-    if-nez v3, :cond_6
+    if-nez v3, :cond_7
 
     move-object/from16 v0, p0
 
@@ -1170,19 +1201,19 @@
 
     move-result v3
 
-    if-eqz v3, :cond_c
+    if-eqz v3, :cond_d
 
-    :cond_6
+    :cond_7
     const/4 v3, 0x1
 
     :goto_6
-    if-eqz v3, :cond_7
+    if-eqz v3, :cond_8
 
     invoke-virtual {v2}, Ljht;->a()Z
 
     move-result v3
 
-    if-eqz v3, :cond_7
+    if-eqz v3, :cond_8
 
     new-instance v18, Lcom/google/googlex/gcam/ImageSaverParams;
 
@@ -1220,7 +1251,7 @@
 
     invoke-virtual {v0, v2}, Lcom/google/googlex/gcam/ImageSaverParams;->setDest_folder(Ljava/lang/String;)V
 
-    :cond_7
+    :cond_8
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcoq;->c:Lcom/google/googlex/gcam/Gcam;
@@ -1261,7 +1292,7 @@
 
     move-result-object v10
 
-    if-eqz v10, :cond_e
+    if-eqz v10, :cond_f
 
     invoke-static {v10}, LcokMod;->testTuningCoq(Lcom/google/googlex/gcam/IShot;)V
 
@@ -1307,7 +1338,7 @@
 
     move-result v3
 
-    if-eqz v3, :cond_d
+    if-eqz v3, :cond_e
 
     move-object/from16 v0, p0
 
@@ -1371,23 +1402,23 @@
 
     return-object v2
 
-    :cond_8
+    :cond_9
     const/4 v2, 0x0
 
     goto/16 :goto_2
 
-    :cond_9
+    :cond_a
     const/4 v2, 0x1
 
     goto/16 :goto_3
 
-    :cond_a
+    :cond_b
     :try_start_2
     const-string v2, "n"
 
     goto/16 :goto_4
 
-    :cond_b
+    :cond_c
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcoq;->i:Lgdq;
@@ -1410,17 +1441,17 @@
 
     goto/16 :goto_5
 
-    :cond_c
+    :cond_d
     const/4 v3, 0x0
 
     goto/16 :goto_6
 
-    :cond_d
+    :cond_e
     const/4 v7, 0x0
 
     goto :goto_7
 
-    :cond_e
+    :cond_f
     const/4 v2, 0x0
 
     goto :goto_8

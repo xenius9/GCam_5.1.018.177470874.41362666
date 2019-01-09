@@ -819,6 +819,26 @@
     <public type="drawable" name="quantum_ic_videocam_white_24" id="0x7f0201a1" />
     <public type="drawable" name="ic_developer_board_white_48dp" id="0x7f0201a2" />
     <public type="drawable" name="ic_lock" id="0x7f0201a5" />
+    <public type="drawable" name="custom_gallery_white_48dp" id="0x7f0201a6" />
+    <public type="drawable" name="ic_bitrate" id="0x7f0201a7" />
+    <public type="drawable" name="ic_capture_pano" id="0x7f0201a8" />
+    <public type="drawable" name="ic_dirty_lens_white_48dp" id="0x7f0201a9" />
+    <public type="drawable" name="ic_edge_white_48dp" id="0x7f0201aa" />
+    <public type="drawable" name="ic_frame_reuse_white_48dp" id="0x7f0201ab" />
+    <public type="drawable" name="ic_hdrplus_on_white_48dp" id="0x7f0201ac" />
+    <public type="drawable" name="ic_ignoreblackdots_white_dp48" id="0x7f0201ad" />
+    <public type="drawable" name="ic_iso2_white_48dp" id="0x7f0201ae" />
+    <public type="drawable" name="ic_maxbrightness_white_48dp" id="0x7f0201af" />
+    <public type="drawable" name="ic_optical_stabi_white_dp48" id="0x7f0201b0" />
+    <public type="drawable" name="ic_panosize_white" id="0x7f0201b1" />
+    <public type="drawable" name="ic_pdaf_white_48dp" id="0x7f0201b2" />
+    <public type="drawable" name="ic_portrait_all_white_48dp" id="0x7f0201b3" />
+    <public type="drawable" name="ic_prev_vf_white_48dp" id="0x7f0201b4" />
+    <public type="drawable" name="ic_resambling_white_48dp" id="0x7f0201b5" />
+    <public type="drawable" name="ic_suppresshot_white_48dp" id="0x7f0201b6" />
+    <public type="drawable" name="ic_iso_limit_white_48dp" id="0x7f0201b7" />
+    <public type="drawable" name="ic_lib_white_48dp" id="0x7f0201b8" />
+    <public type="drawable" name="ic_offset" id="0x7f0201b9" />
     <public type="mipmap" name="adaptiveproduct_pixelcamera" id="0x7f030006" />
     <public type="mipmap" name="adaptiveproduct_pixelcamera_launcher" id="0x7f030002" />
     <public type="mipmap" name="adaptiveproduct_pixelcamera_background_color_108" id="0x7f030000" />
@@ -1221,6 +1241,10 @@
     <public type="array" name="override_entryvalues" id="0x7f0a0070" />
     <public type="array" name="pref_override_entries" id="0x7f0a0071" />
     <public type="array" name="pref_override_entryvalues" id="0x7f0a0072" />
+    <public type="array" name="bl_offset_entries" id="0x7f0a0073" />
+    <public type="array" name="bl_offset_entryvalues" id="0x7f0a0074" />
+    <public type="array" name="libs_entries" id="0x7f0a0075" />
+    <public type="array" name="libs_entryvalues" id="0x7f0a0076" />
     <public type="bool" name="abc_action_bar_embed_tabs" id="0x7f0b0000" />
     <public type="bool" name="abc_allow_stacked_button_bar" id="0x7f0b0001" />
     <public type="bool" name="abc_config_actionMenuItemAllCaps" id="0x7f0b0002" />
@@ -3926,6 +3950,14 @@
     <public type="string" name="pref_portraitzsl_title" id="0x7f11040a" />
     <public type="string" name="pref_hdrplusmulti_title" id="0x7f11040b" />
     <public type="string" name="pref_hdrplusmulti_default" id="0x7f11040c" />
+    <public type="string" name="pref_aemode_11" id="0x7f11040d" />
+    <public type="string" name="pref_aemode_12" id="0x7f11040e" />
+    <public type="string" name="pref_aemode_13" id="0x7f11040f" />
+    <public type="string" name="pref_aemode_14" id="0x7f110410" />
+    <public type="string" name="pref_aemode_15" id="0x7f110411" />
+    <public type="string" name="pref_aemode_16" id="0x7f110412" />
+    <public type="string" name="pref_hdrplusmulti_1" id="0x7f110413" />
+    <public type="string" name="pref_hdrplusmulti_2" id="0x7f110414" />
     <public type="string" name="pref_hdrdenoiseback_title" id="0x7f110415" />
     <public type="string" name="pref_hdrdenoisefront_title" id="0x7f110416" />
     <public type="string" name="pref_hdrdenoise_default" id="0x7f110417" />
@@ -4189,9 +4221,19 @@
     <public type="string" name="pref_aemode_8" id="0x7f110519" />
     <public type="string" name="pref_aemode_9" id="0x7f11051a" />
     <public type="string" name="pref_aemode_10" id="0x7f11051b" />
+    <public type="string" name="pref_hdrplusmulti_3" id="0x7f11051c" />
+    <public type="string" name="pref_hdrplusmulti_4" id="0x7f11051d" />
     <public type="string" name="pref_siwl_title" id="0x7f11051e" />
     <public type="string" name="pref_smas_title" id="0x7f11051f" />
     <public type="string" name="pref_smas_default" id="0x7f110520" />
+    <public type="string" name="pref_hdrplusmulti_5" id="0x7f110521" />
+    <public type="string" name="pref_hdrplusmulti_6" id="0x7f110522" />
+    <public type="string" name="pref_hdrplusmulti_7" id="0x7f110523" />
+    <public type="string" name="pref_hdrplusmulti_8" id="0x7f110524" />
+    <public type="string" name="pref_hdrplusmulti_9" id="0x7f110525" />
+    <public type="string" name="pref_hdrplusmulti_10" id="0x7f110526" />
+    <public type="string" name="pref_hdrplusmulti_11" id="0x7f110527" />
+    <public type="string" name="pref_hdrplusmulti_12" id="0x7f110528" />
     <public type="string" name="pref_input_mf_enabled_macro_hint" id="0x7f110529" />
     <public type="string" name="pref_input_mf_enabled_portrait_hint" id="0x7f11052a" />
     <public type="string" name="pref_input_mf_enabled_infinity_hint" id="0x7f11052b" />
@@ -4207,6 +4249,18 @@
     <public type="string" name="pref_hexagon_summary" id="0x7f110535" />
     <public type="string" name="pref_hexagon_0" id="0x7f110536" />
     <public type="string" name="pref_hexagon_1" id="0x7f110537" />
+    <public type="string" name="pref_hdrplusmulti_13" id="0x7f110538" />
+    <public type="string" name="pref_hdrplusmulti_14" id="0x7f110539" />
+    <public type="string" name="pref_hdrplusmulti_15" id="0x7f11053a" />
+    <public type="string" name="pref_hdrplusmulti_16" id="0x7f11053b" />
+    <public type="string" name="pref_hdrplusmulti_17" id="0x7f11053c" />
+    <public type="string" name="pref_hdrplusmulti_18" id="0x7f11053d" />
+    <public type="string" name="pref_hdrplusmulti_19" id="0x7f11053e" />
+    <public type="string" name="pref_hdrplusmulti_20" id="0x7f11053f" />
+    <public type="string" name="pref_hdrplusmulti_21" id="0x7f110540" />
+    <public type="string" name="pref_hdrplusmulti_22" id="0x7f110541" />
+    <public type="string" name="pref_hdrplusmulti_23" id="0x7f110542" />
+    <public type="string" name="pref_hdrplusmulti_24" id="0x7f110543" />
     <public type="string" name="pref_hexagon_2" id="0x7f110544" />
     <public type="string" name="pref_wbmult_70" id="0x7f110545" />
     <public type="string" name="pref_wbmult_71" id="0x7f110546" />
@@ -4241,9 +4295,23 @@
     <public type="string" name="about_dev_4_summary" id="0x7f110563" />
     <public type="string" name="about_dev_5_title" id="0x7f110564" />
     <public type="string" name="about_dev_5_summary" id="0x7f110565" />
+    <public type="string" name="pref_hdrplusmulti_25" id="0x7f110566" />
     <public type="string" name="about_dev_6_title" id="0x7f110567" />
     <public type="string" name="about_dev_6_summary" id="0x7f110568" />
     <public type="string" name="pref_livehdr_summary" id="0x7f110569" />
+    <public type="string" name="APKTOOL_DUMMY_57a" id="0x7f11057a" />
+    <public type="string" name="APKTOOL_DUMMY_57b" id="0x7f11057b" />
+    <public type="string" name="APKTOOL_DUMMY_57c" id="0x7f11057c" />
+    <public type="string" name="APKTOOL_DUMMY_57d" id="0x7f11057d" />
+    <public type="string" name="APKTOOL_DUMMY_57e" id="0x7f11057e" />
+    <public type="string" name="APKTOOL_DUMMY_57f" id="0x7f11057f" />
+    <public type="string" name="APKTOOL_DUMMY_580" id="0x7f110580" />
+    <public type="string" name="APKTOOL_DUMMY_581" id="0x7f110581" />
+    <public type="string" name="APKTOOL_DUMMY_582" id="0x7f110582" />
+    <public type="string" name="APKTOOL_DUMMY_583" id="0x7f110583" />
+    <public type="string" name="APKTOOL_DUMMY_584" id="0x7f110584" />
+    <public type="string" name="pref_hdrplusmulti_26" id="0x7f110585" />
+    <public type="string" name="APKTOOL_DUMMY_586" id="0x7f110586" />
     <public type="string" name="sat_title" id="0x7f110587" />
     <public type="string" name="hlsat_title" id="0x7f110588" />
     <public type="string" name="ssat_title" id="0x7f110589" />
@@ -4269,86 +4337,6 @@
     <public type="string" name="sat_19" id="0x7f11059d" />
     <public type="string" name="sat_20" id="0x7f11059e" />
     <public type="string" name="sat_21" id="0x7f11059f" />
-    <public type="string" name="sat_22" id="0x7f110600" />
-    <public type="string" name="sat_23" id="0x7f110601" />
-    <public type="string" name="sat_24" id="0x7f110602" />
-    <public type="string" name="sat_25" id="0x7f110603" />
-    <public type="string" name="sat_26" id="0x7f110604" />
-    <public type="string" name="sat_27" id="0x7f110605" />
-    <public type="string" name="sat_28" id="0x7f110606" />
-    <public type="string" name="sat_29" id="0x7f110607" />
-    <public type="string" name="sat_30" id="0x7f110608" />
-    <public type="string" name="sat_31" id="0x7f110609" />
-    <public type="string" name="sat_32" id="0x7f11060a" />
-    <public type="string" name="sat_33" id="0x7f11060b" />
-    <public type="string" name="sat_34" id="0x7f11060c" />
-    <public type="string" name="sat_35" id="0x7f11060d" />
-    <public type="string" name="sat_36" id="0x7f11060e" />
-    <public type="string" name="sat_37" id="0x7f11060f" />
-    <public type="string" name="sat_38" id="0x7f110610" />
-    <public type="string" name="sat_39" id="0x7f110611" />
-    <public type="string" name="sat_40" id="0x7f110612" />
-    <public type="string" name="sat_41" id="0x7f110613" />
-    <public type="string" name="sat_42" id="0x7f110614" />
-    <public type="string" name="sat_43" id="0x7f110615" />
-    <public type="string" name="sat_44" id="0x7f110616" />
-    <public type="string" name="sat_45" id="0x7f110617" />
-    <public type="string" name="sat_46" id="0x7f110618" />
-    <public type="string" name="sat_47" id="0x7f110619" />
-    <public type="string" name="sat_48" id="0x7f11061a" />
-    <public type="string" name="sat_49" id="0x7f11061b" />
-    <public type="string" name="sat_50" id="0x7f11061c" />
-    <public type="string" name="ssat_default" id="0x7f110620" />
-    <public type="string" name="hlsat_default" id="0x7f110621" />
-    <public type="string" name="pref_folder_title" id="0x7f110622" />
-    <public type="string" name="pref_bitrate_title" id="0x7f110623" />
-    <public type="string" name="pref_bitrate_default" id="0x7f110624" />
-    <public type="string" name="pref_bitrate_summary" id="0x7f110625" />
-    <public type="string" name="pref_bitrate_1" id="0x7f110626" />
-    <public type="string" name="pref_bitrate_2" id="0x7f110627" />
-    <public type="string" name="pref_bitrate_3" id="0x7f110628" />
-    <public type="string" name="pref_bitrate_4" id="0x7f110629" />
-    <public type="string" name="pref_bitrate_5" id="0x7f11062a" />
-    <public type="string" name="pref_bitrate_6" id="0x7f11062b" />
-    <public type="string" name="pref_bitrate_7" id="0x7f11062c" />
-    <public type="string" name="pref_bitrate_8" id="0x7f11062d" />
-    <public type="string" name="pref_bitrate_9" id="0x7f11062e" />
-    <public type="string" name="pref_bitrate_10" id="0x7f11062f" />
-    <public type="string" name="pref_bitrate_11" id="0x7f110630" />
-    <public type="string" name="resampling_method_override_default" id="0x7f110631" />
-    <public type="string" name="override_0" id="0x7f110632" />
-    <public type="string" name="override_1" id="0x7f110633" />
-    <public type="string" name="override_2" id="0x7f110634" />
-    <public type="string" name="override_3" id="0x7f110635" />
-    <public type="string" name="override_4" id="0x7f110636" />
-    <public type="string" name="override_5" id="0x7f110637" />
-    <public type="string" name="override_6" id="0x7f110638" />
-    <public type="string" name="override_7" id="0x7f110639" />
-    <public type="string" name="override_8" id="0x7f11063a" />
-    <public type="string" name="override_9" id="0x7f11063b" />
-    <public type="string" name="allow_base_frame_reuse" id="0x7f11063c" />
-    <public type="string" name="cull_metering_frames_using_previous_viewfinder" id="0x7f11063d" />
-    <public type="string" name="ignore_black_pixels" id="0x7f11063e" />
-    <public type="string" name="suppress_hot_pixels" id="0x7f11063f" />
-    <public type="string" name="resampling_method_override_title" id="0x7f110640" />
-    <public type="string" name="pref_override_0" id="0x7f110641" />
-    <public type="string" name="pref_override_1" id="0x7f110642" />
-    <public type="string" name="pref_override_2" id="0x7f110643" />
-    <public type="string" name="pref_override_3" id="0x7f110644" />
-    <public type="string" name="pref_frame_lock" id="0x7f110648" />
-    <public type="string" name="pref_frame_lock_summary" id="0x7f110649" />
-    <public type="string" name="APKTOOL_DUMMY_57a" id="0x7f11057a" />
-    <public type="string" name="APKTOOL_DUMMY_57b" id="0x7f11057b" />
-    <public type="string" name="APKTOOL_DUMMY_57c" id="0x7f11057c" />
-    <public type="string" name="APKTOOL_DUMMY_57d" id="0x7f11057d" />
-    <public type="string" name="APKTOOL_DUMMY_57e" id="0x7f11057e" />
-    <public type="string" name="APKTOOL_DUMMY_57f" id="0x7f11057f" />
-    <public type="string" name="APKTOOL_DUMMY_580" id="0x7f110580" />
-    <public type="string" name="APKTOOL_DUMMY_581" id="0x7f110581" />
-    <public type="string" name="APKTOOL_DUMMY_582" id="0x7f110582" />
-    <public type="string" name="APKTOOL_DUMMY_583" id="0x7f110583" />
-    <public type="string" name="APKTOOL_DUMMY_584" id="0x7f110584" />
-    <public type="string" name="APKTOOL_DUMMY_586" id="0x7f110586" />
     <public type="string" name="APKTOOL_DUMMY_5a0" id="0x7f1105a0" />
     <public type="string" name="APKTOOL_DUMMY_5a1" id="0x7f1105a1" />
     <public type="string" name="APKTOOL_DUMMY_5a2" id="0x7f1105a2" />
@@ -4445,9 +4433,184 @@
     <public type="string" name="APKTOOL_DUMMY_5fd" id="0x7f1105fd" />
     <public type="string" name="APKTOOL_DUMMY_5fe" id="0x7f1105fe" />
     <public type="string" name="APKTOOL_DUMMY_5ff" id="0x7f1105ff" />
+    <public type="string" name="sat_22" id="0x7f110600" />
+    <public type="string" name="sat_23" id="0x7f110601" />
+    <public type="string" name="sat_24" id="0x7f110602" />
+    <public type="string" name="sat_25" id="0x7f110603" />
+    <public type="string" name="sat_26" id="0x7f110604" />
+    <public type="string" name="sat_27" id="0x7f110605" />
+    <public type="string" name="sat_28" id="0x7f110606" />
+    <public type="string" name="sat_29" id="0x7f110607" />
+    <public type="string" name="sat_30" id="0x7f110608" />
+    <public type="string" name="sat_31" id="0x7f110609" />
+    <public type="string" name="sat_32" id="0x7f11060a" />
+    <public type="string" name="sat_33" id="0x7f11060b" />
+    <public type="string" name="sat_34" id="0x7f11060c" />
+    <public type="string" name="sat_35" id="0x7f11060d" />
+    <public type="string" name="sat_36" id="0x7f11060e" />
+    <public type="string" name="sat_37" id="0x7f11060f" />
+    <public type="string" name="sat_38" id="0x7f110610" />
+    <public type="string" name="sat_39" id="0x7f110611" />
+    <public type="string" name="sat_40" id="0x7f110612" />
+    <public type="string" name="sat_41" id="0x7f110613" />
+    <public type="string" name="sat_42" id="0x7f110614" />
+    <public type="string" name="sat_43" id="0x7f110615" />
+    <public type="string" name="sat_44" id="0x7f110616" />
+    <public type="string" name="sat_45" id="0x7f110617" />
+    <public type="string" name="sat_46" id="0x7f110618" />
+    <public type="string" name="sat_47" id="0x7f110619" />
+    <public type="string" name="sat_48" id="0x7f11061a" />
+    <public type="string" name="sat_49" id="0x7f11061b" />
+    <public type="string" name="sat_50" id="0x7f11061c" />
     <public type="string" name="APKTOOL_DUMMY_61d" id="0x7f11061d" />
     <public type="string" name="APKTOOL_DUMMY_61e" id="0x7f11061e" />
     <public type="string" name="APKTOOL_DUMMY_61f" id="0x7f11061f" />
+    <public type="string" name="ssat_default" id="0x7f110620" />
+    <public type="string" name="hlsat_default" id="0x7f110621" />
+    <public type="string" name="pref_folder_title" id="0x7f110622" />
+    <public type="string" name="pref_bitrate_title" id="0x7f110623" />
+    <public type="string" name="pref_bitrate_default" id="0x7f110624" />
+    <public type="string" name="pref_bitrate_summary" id="0x7f110625" />
+    <public type="string" name="pref_bitrate_1" id="0x7f110626" />
+    <public type="string" name="pref_bitrate_2" id="0x7f110627" />
+    <public type="string" name="pref_bitrate_3" id="0x7f110628" />
+    <public type="string" name="pref_bitrate_4" id="0x7f110629" />
+    <public type="string" name="pref_bitrate_5" id="0x7f11062a" />
+    <public type="string" name="pref_bitrate_6" id="0x7f11062b" />
+    <public type="string" name="pref_bitrate_7" id="0x7f11062c" />
+    <public type="string" name="pref_bitrate_8" id="0x7f11062d" />
+    <public type="string" name="pref_bitrate_9" id="0x7f11062e" />
+    <public type="string" name="pref_bitrate_10" id="0x7f11062f" />
+    <public type="string" name="pref_bitrate_11" id="0x7f110630" />
+    <public type="string" name="resampling_method_override_default" id="0x7f110631" />
+    <public type="string" name="override_0" id="0x7f110632" />
+    <public type="string" name="override_1" id="0x7f110633" />
+    <public type="string" name="override_2" id="0x7f110634" />
+    <public type="string" name="override_3" id="0x7f110635" />
+    <public type="string" name="override_4" id="0x7f110636" />
+    <public type="string" name="override_5" id="0x7f110637" />
+    <public type="string" name="override_6" id="0x7f110638" />
+    <public type="string" name="override_7" id="0x7f110639" />
+    <public type="string" name="override_8" id="0x7f11063a" />
+    <public type="string" name="override_9" id="0x7f11063b" />
+    <public type="string" name="allow_base_frame_reuse" id="0x7f11063c" />
+    <public type="string" name="cull_metering_frames_using_previous_viewfinder" id="0x7f11063d" />
+    <public type="string" name="ignore_black_pixels" id="0x7f11063e" />
+    <public type="string" name="suppress_hot_pixels" id="0x7f11063f" />
+    <public type="string" name="resampling_method_override_title" id="0x7f110640" />
+    <public type="string" name="pref_override_0" id="0x7f110641" />
+    <public type="string" name="pref_override_1" id="0x7f110642" />
+    <public type="string" name="pref_override_2" id="0x7f110643" />
+    <public type="string" name="pref_exp_title" id="0x7f110644" />
+    <public type="string" name="pref_hdrplusmulti_27" id="0x7f110645" />
+    <public type="string" name="pref_hdrplusmulti_28" id="0x7f110646" />
+    <public type="string" name="pref_hdrplusmulti_29" id="0x7f110647" />
+    <public type="string" name="pref_frame_lock" id="0x7f110648" />
+    <public type="string" name="pref_frame_lock_summary" id="0x7f110649" />
+    <public type="string" name="pref_hdrplusmulti_30" id="0x7f11064a" />
+    <public type="string" name="pref_hdrplusmulti_31" id="0x7f11064b" />
+    <public type="string" name="pref_hdrplusmulti_32" id="0x7f11064c" />
+    <public type="string" name="pref_hdrplusmulti_33" id="0x7f11064d" />
+    <public type="string" name="pref_hdrplusmulti_34" id="0x7f11064e" />
+    <public type="string" name="pref_hdrplusmulti_35" id="0x7f11064f" />
+    <public type="string" name="pref_hdrplusmulti_36" id="0x7f110650" />
+    <public type="string" name="pref_hdrplusmulti_37" id="0x7f110651" />
+    <public type="string" name="pref_hdrplusmulti_38" id="0x7f110652" />
+    <public type="string" name="pref_hdrplusmulti_39" id="0x7f110653" />
+    <public type="string" name="pref_hdrplusmulti_40" id="0x7f110654" />
+    <public type="string" name="pref_hdrplusmulti_41" id="0x7f110655" />
+    <public type="string" name="pref_denoiseluma_600" id="0x7f110656" />
+    <public type="string" name="pref_denoiseluma_700" id="0x7f110657" />
+    <public type="string" name="pref_denoiseluma_800" id="0x7f110658" />
+    <public type="string" name="pref_denoiseluma_900" id="0x7f110659" />
+    <public type="string" name="pref_denoiseluma_1100" id="0x7f11065a" />
+    <public type="string" name="pref_denoiseluma_1200" id="0x7f11065b" />
+    <public type="string" name="pref_denoiseluma_1300" id="0x7f11065c" />
+    <public type="string" name="pref_denoiseluma_1400" id="0x7f11065d" />
+    <public type="string" name="pref_denoiseluma_1500" id="0x7f11065e" />
+    <public type="string" name="pref_denoiseluma_1600" id="0x7f11065f" />
+    <public type="string" name="pref_denoiseluma_1700" id="0x7f110660" />
+    <public type="string" name="pref_denoiseluma_1800" id="0x7f110661" />
+    <public type="string" name="pref_denoiseluma_1900" id="0x7f110662" />
+    <public type="string" name="pref_denoiseluma_2000" id="0x7f110663" />
+    <public type="string" name="pref_denoiseluma_3000" id="0x7f110664" />
+    <public type="string" name="pref_denoiseluma_4000" id="0x7f110665" />
+    <public type="string" name="pref_denoiseluma_5000" id="0x7f110666" />
+    <public type="string" name="pref_denoiseluma_6000" id="0x7f110667" />
+    <public type="string" name="pref_denoiseluma_7000" id="0x7f110668" />
+    <public type="string" name="pref_denoiseluma_8000" id="0x7f110669" />
+    <public type="string" name="pref_denoiseluma_9000" id="0x7f11066a" />
+    <public type="string" name="pref_smas_0" id="0x7f11066b" />
+    <public type="string" name="pref_smas_1" id="0x7f11066c" />
+    <public type="string" name="pref_smas_2" id="0x7f11066d" />
+    <public type="string" name="pref_smas_3" id="0x7f11066e" />
+    <public type="string" name="pref_smas_4" id="0x7f11066f" />
+    <public type="string" name="pref_smas_5" id="0x7f110670" />
+    <public type="string" name="pref_smas_6" id="0x7f110671" />
+    <public type="string" name="pref_smas_7" id="0x7f110672" />
+    <public type="string" name="pref_smas_8" id="0x7f110673" />
+    <public type="string" name="pref_smas_9" id="0x7f110674" />
+    <public type="string" name="pref_smas_10" id="0x7f110675" />
+    <public type="string" name="pref_smas_11" id="0x7f110676" />
+    <public type="string" name="pref_smas_12" id="0x7f110677" />
+    <public type="string" name="pref_smas_13" id="0x7f110678" />
+    <public type="string" name="pref_smas_14" id="0x7f110679" />
+    <public type="string" name="pref_smas_15" id="0x7f11067a" />
+    <public type="string" name="pref_smas_16" id="0x7f11067b" />
+    <public type="string" name="pref_smas_17" id="0x7f11067c" />
+    <public type="string" name="override_10" id="0x7f11067d" />
+    <public type="string" name="override_11" id="0x7f11067e" />
+    <public type="string" name="override_12" id="0x7f11067f" />
+    <public type="string" name="override_13" id="0x7f110680" />
+    <public type="string" name="override_14" id="0x7f110681" />
+    <public type="string" name="override_15" id="0x7f110682" />
+    <public type="string" name="override_16" id="0x7f110683" />
+    <public type="string" name="override_17" id="0x7f110684" />
+    <public type="string" name="override_18" id="0x7f110685" />
+    <public type="string" name="override_19" id="0x7f110686" />
+    <public type="string" name="override_20" id="0x7f110687" />
+    <public type="string" name="override_21" id="0x7f110688" />
+    <public type="string" name="override_22" id="0x7f110689" />
+    <public type="string" name="override_23" id="0x7f11068a" />
+    <public type="string" name="override_24" id="0x7f11068b" />
+    <public type="string" name="override_25" id="0x7f11068c" />
+    <public type="string" name="override_26" id="0x7f11068d" />
+    <public type="string" name="override_27" id="0x7f11068e" />
+    <public type="string" name="override_28" id="0x7f11068f" />
+    <public type="string" name="override_29" id="0x7f110690" />
+    <public type="string" name="override_30" id="0x7f110691" />
+    <public type="string" name="override_31" id="0x7f110692" />
+    <public type="string" name="override_32" id="0x7f110693" />
+    <public type="string" name="override_33" id="0x7f110694" />
+    <public type="string" name="override_34" id="0x7f110695" />
+    <public type="string" name="override_35" id="0x7f110696" />
+    <public type="string" name="override_36" id="0x7f110697" />
+    <public type="string" name="override_37" id="0x7f110698" />
+    <public type="string" name="override_38" id="0x7f110699" />
+    <public type="string" name="override_39" id="0x7f11069a" />
+    <public type="string" name="override_40" id="0x7f11069b" />
+    <public type="string" name="override_41" id="0x7f11069c" />
+    <public type="string" name="override_42" id="0x7f11069d" />
+    <public type="string" name="pref_max_brightness_title" id="0x7f11069e" />
+    <public type="string" name="fix_use_photos_title" id="0x7f11069f" />
+    <public type="string" name="google_photos_summary" id="0x7f1106a0" />
+    <public type="string" name="pref_exp_title_summary" id="0x7f1106a1" />
+    <public type="string" name="bl_offset_title" id="0x7f1106a2" />
+    <public type="string" name="bl_offset_default" id="0x7f1106a3" />
+    <public type="string" name="bl_offset_0" id="0x7f1106a4" />
+    <public type="string" name="bl_offset_25" id="0x7f1106a5" />
+    <public type="string" name="bl_offset_50" id="0x7f1106a6" />
+    <public type="string" name="bl_offset_75" id="0x7f1106a7" />
+    <public type="string" name="bl_offset_100" id="0x7f1106a8" />
+    <public type="string" name="bl_offset_125" id="0x7f1106a9" />
+    <public type="string" name="bl_offset_150" id="0x7f1106aa" />
+    <public type="string" name="libs_title" id="0x7f1106ab" />
+    <public type="string" name="libs_a" id="0x7f1106ac" />
+    <public type="string" name="libs_b" id="0x7f1106ad" />
+    <public type="string" name="libs_c" id="0x7f1106ae" />
+    <public type="string" name="libs_d" id="0x7f1106af" />
+    <public type="string" name="libs_default" id="0x7f1106b0" />
+    <public type="string" name="libs_title_summary" id="0x7f1106b1" />
     <public type="string" name="pref_tuningsettings_title" id="0x7f11056a" />
     <public type="string" name="pref_portrait_mode" id="0x7f11056b" />
     <public type="string" name="raw_mode" id="0x7f11056c" />

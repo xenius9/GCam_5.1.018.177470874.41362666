@@ -10,14 +10,47 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 1
+    .locals 2
+
+    sget v1, Lbhn;->sLibs:I
+
+    const/4 v0, 0x1
+
+    if-eq v1, v0, :cond_0
+
+    const/4 v0, 0x2
+
+    if-eq v1, v0, :cond_1
+
+    const/4 v0, 0x3
+
+    if-eq v1, v0, :cond_2
 
     const-string v0, "gcam_swig_jni"
 
+    :goto_0
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     invoke-static {}, Lcom/google/googlex/gcam/GcamModuleJNI;->swig_module_init()V
 
+    goto :goto_1
+
+    :cond_0
+    const-string v0, "gc01_swig_jni"
+
+    goto :goto_0
+
+    :cond_1
+    const-string v0, "gc02_swig_jni"
+
+    goto :goto_0
+
+    :cond_2
+    const-string v0, "gc03_swig_jni"
+
+    goto :goto_0
+
+    :goto_1
     return-void
 .end method
 

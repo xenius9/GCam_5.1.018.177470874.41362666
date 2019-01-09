@@ -876,12 +876,12 @@ Move device slowly"</string>
     <string name="pref_input_model_N5">Nexus 5</string>
     <string name="pref_input_model_N6">Nexus 6</string>
     <string name="pref_input_model_N5X">Nexus 5X</string>
-    <string name="pref_input_model_N6P">Nexus 6P</string>
-    <string name="pref_input_model_PxlXLTai">Pixel XL</string>
+    <string name="pref_input_model_N6P">Nexus 6P (Better Details)</string>
+    <string name="pref_input_model_PxlXLTai">Pixel XL (Bugged NR)</string>
     <string name="pref_input_model_Tai">Pixel 2 XL</string>
     <string name="pref_input_model_Wall">Pixel 2</string>
     <string name="pref_config_camera_title">Config. HDR+ camera</string>
-    <string name="pref_config_camera_default">4</string>
+    <string name="pref_config_camera_default">9</string>
     <string name="pref_config_camera_0">AUTO</string>
     <string name="pref_config_camera_1">Pixel 2016 Tuning</string>
     <string name="pref_config_camera_2">Experimental Features (Pixel)</string>
@@ -895,21 +895,15 @@ Move device slowly"</string>
     <string name="pref_all_title_summary_config">"%s
 In AUTO mode, the config depends on the Model"</string>
     <string name="pref_parameters_camera_title">HDR+ parameters</string>
-    <string name="pref_parameters_camera_default">3</string>
-    <string name="pref_parameters_camera_0">Default, 8 frames</string>
-    <string name="pref_parameters_camera_1">Very low, 3 frames</string>
-    <string name="pref_parameters_camera_2">Low, 5 frames</string>
-    <string name="pref_parameters_camera_3">Medium, 12 frames</string>
-    <string name="pref_parameters_camera_4">"High, 20 frames
+    <string name="pref_parameters_camera_default">6</string>
+    <string name="pref_parameters_camera_0">Default, 8 frames max</string>
+    <string name="pref_parameters_camera_1">Very low, 3 frames max</string>
+    <string name="pref_parameters_camera_2">Low, 5 frames max</string>
+    <string name="pref_parameters_camera_3">Medium, 12 frames max</string>
+    <string name="pref_parameters_camera_4">"High, 20 frames max
 not for ZSL!"</string>
-    <string name="pref_parameters_camera_5">"Very High, 48 frames
+    <string name="pref_parameters_camera_5">"Very High, 48 frames max
 not for ZSL!"</string>
-    <string name="pref_parameters_camera_6">"Pixel 2017
-10 frames"</string>
-    <string name="pref_parameters_camera_7">"Pixel 2017 ZSL
-8 frames"</string>
-    <string name="pref_parameters_camera_8">"Pixel 2017 ZSL Fast
-8 frames"</string>
     <string name="setting_sblpf_title">Fix black level Front camera</string>
     <string name="pref_sblpf_default">0000</string>
     <string name="pref_sblpf_m12">00.00</string>
@@ -1037,6 +1031,12 @@ If enabled, the config of the Nexus6P or Pixels will be used"</string>
     <string name="pref_refocusmb_summary">"%s
 The value should not exceed the actual size of the camera module"</string>
     <string name="pref_all_title_summary_switch">It is necessary to completely close the application, the changes will take effect at the next start.</string>
+    <string name="pref_parameters_camera_6">"Pixel 2017
+10 frames max"</string>
+    <string name="pref_parameters_camera_7">"Pixel 2017 ZSL
+8 frames max"</string>
+    <string name="pref_parameters_camera_8">"Pixel 2017 ZSL Fast
+8 frames max"</string>
     <string name="pref_qhdrf_title">HDR+ Front camera</string>
     <string name="pref_qhdrf_summary">Turn on auto HDR+ for front camera.</string>
     <string name="pref_aemode_title">HDR+ Auto-Exposure mode No-ZSL</string>
@@ -1050,14 +1050,6 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="pref_aemode_5">ISO 150</string>
     <string name="pref_aemode_6">ISO 100</string>
     <string name="pref_aemode_7">ISO 50</string>
-    <string name="pref_aemode_8">Slow shutter X2</string>
-    <string name="pref_aemode_9">Slow shutter</string>
-    <string name="pref_aemode_10">1/10 sec (min.)</string>
-    <string name="pref_aemode_11">1/20 sec.</string>
-    <string name="pref_aemode_12">1/33 sec.</string>
-    <string name="pref_aemode_13">1/50 sec.</string>
-    <string name="pref_aemode_14">1/100 sec.</string>
-    <string name="pref_aemode_15">1/200 sec.</string>
     <string name="pref_antibandingmode_title">HDR+ antibanding mode No-ZSL</string>
     <string name="pref_antibandingmode_default">0</string>
     <string name="pref_abmode_0">Turn-off</string>
@@ -1083,59 +1075,27 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="pref_livehdr_title">Live HDR</string>
     <string name="pref_phaseaf_title">Phase AF</string>
     <string name="pref_portraitzsl_title">Portrait ZSL mode</string>
-    <string name="pref_hdrplusmulti_title">HDR+ frame exposure compensation</string>
+    <string name="pref_hdrplusmulti_title">HDR+ Exposure compensation</string>
     <string name="pref_hdrplusmulti_default">100</string>
+    <string name="pref_aemode_11">1/10 sec (min.)</string>
+    <string name="pref_aemode_12">1/20 sec.</string>
+    <string name="pref_aemode_13">1/33 sec.</string>
+    <string name="pref_aemode_14">1/50 sec.</string>
+    <string name="pref_aemode_15">1/100 sec.</string>
+    <string name="pref_aemode_16">1/200 sec.</string>
     <string name="pref_hdrplusmulti_1">+100%</string>
     <string name="pref_hdrplusmulti_2">+95%</string>
-    <string name="pref_hdrplusmulti_3">+90%</string>
-    <string name="pref_hdrplusmulti_4">+85%</string>
-    <string name="pref_hdrplusmulti_5">+80%</string>
-    <string name="pref_hdrplusmulti_6">+75%</string>
-    <string name="pref_hdrplusmulti_7">+70%</string>
-    <string name="pref_hdrplusmulti_8">+65%</string>
-    <string name="pref_hdrplusmulti_9">+60%</string>
-    <string name="pref_hdrplusmulti_10">+55%</string>
-    <string name="pref_hdrplusmulti_11">+50%</string>
-    <string name="pref_hdrplusmulti_12">+45%</string>
-    <string name="pref_hdrplusmulti_13">+40%</string>
-    <string name="pref_hdrplusmulti_14">+35%</string>
-    <string name="pref_hdrplusmulti_15">+30%</string>
-    <string name="pref_hdrplusmulti_16">+25%</string>
-    <string name="pref_hdrplusmulti_17">+20%</string>
-    <string name="pref_hdrplusmulti_18">+15%</string>
-    <string name="pref_hdrplusmulti_19">+10%</string>
-    <string name="pref_hdrplusmulti_20">+5%</string>
-    <string name="pref_hdrplusmulti_21">0</string>
-    <string name="pref_hdrplusmulti_22">-5%</string>
-    <string name="pref_hdrplusmulti_23">-10%</string>
-    <string name="pref_hdrplusmulti_24">-15%</string>
-    <string name="pref_hdrplusmulti_25">-20%</string>
-    <string name="pref_hdrplusmulti_26">-25%</string>
-    <string name="pref_hdrplusmulti_27">-30%</string>
-    <string name="pref_hdrplusmulti_28">-35%</string>
-    <string name="pref_hdrplusmulti_29">-40%</string>
-    <string name="pref_hdrplusmulti_30">-45%</string>
-    <string name="pref_hdrplusmulti_31">-50%</string>
-    <string name="pref_hdrplusmulti_32">-55%</string>
-    <string name="pref_hdrplusmulti_33">-60%</string>
-    <string name="pref_hdrplusmulti_34">-65%</string>
-    <string name="pref_hdrplusmulti_35">-70%</string>
-    <string name="pref_hdrplusmulti_36">-75%</string>
-    <string name="pref_hdrplusmulti_37">-80%</string>
-    <string name="pref_hdrplusmulti_38">-85%</string>
-    <string name="pref_hdrplusmulti_39">-90%</string>
-    <string name="pref_hdrplusmulti_40">-95%</string>
-    <string name="pref_hdrplusmulti_41">-100%</string>
     <string name="pref_hdrdenoiseback_title">HDR+ denoise multiplier back</string>
     <string name="pref_hdrdenoisefront_title">HDR+ denoise multiplier front</string>
-    <string name="pref_hdrdenoise_default">100</string>
-    <string name="pref_hdrdenoise_100">100%</string>
+    <string name="pref_hdrdenoise_default">160</string>
+    <string name="pref_hdrdenoise_100">"100%
+(Better Details, more Noise)"</string>
     <string name="pref_hdrdenoise_110">110%</string>
     <string name="pref_hdrdenoise_120">120%</string>
     <string name="pref_hdrdenoise_130">130%</string>
     <string name="pref_hdrdenoise_140">140%</string>
     <string name="pref_hdrdenoise_150">150%</string>
-    <string name="pref_hdrdenoise_160">160%</string>
+    <string name="pref_hdrdenoise_160">160% (Default)</string>
     <string name="pref_hdrdenoise_170">170%</string>
     <string name="pref_hdrdenoise_180">180%</string>
     <string name="pref_hdrdenoise_190">190%</string>
@@ -1376,28 +1336,7 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="pref_denoiseluma_490">4.9</string>
     <string name="pref_denoiseluma_495">4.95</string>
     <string name="pref_denoiseluma_500">5</string>
-    <string name="pref_denoiseluma_600">6</string>
-    <string name="pref_denoiseluma_700">7</string>
-    <string name="pref_denoiseluma_800">8</string>
-    <string name="pref_denoiseluma_900">9</string>
     <string name="pref_denoiseluma_1000">10</string>
-    <string name="pref_denoiseluma_1100">11</string>
-    <string name="pref_denoiseluma_1200">12</string>
-    <string name="pref_denoiseluma_1300">13</string>
-    <string name="pref_denoiseluma_1400">14</string>
-    <string name="pref_denoiseluma_1500">15</string>
-    <string name="pref_denoiseluma_1600">16</string>
-    <string name="pref_denoiseluma_1700">17</string>
-    <string name="pref_denoiseluma_1800">18</string>
-    <string name="pref_denoiseluma_1900">19</string>
-    <string name="pref_denoiseluma_2000">20</string>
-    <string name="pref_denoiseluma_3000">30</string>
-    <string name="pref_denoiseluma_4000">40</string>
-    <string name="pref_denoiseluma_5000">50</string>
-    <string name="pref_denoiseluma_6000">60</string>
-    <string name="pref_denoiseluma_7000">70</string>
-    <string name="pref_denoiseluma_8000">80</string>
-    <string name="pref_denoiseluma_9000">90</string>
     <string name="pref_denoiseluma_10000">100</string>
     <string name="pref_portraitzoom_title">Portrait initial zoom</string>
     <string name="pref_front_fixbayerpattern_title">Correct bayer pattern on S8 Exynos front cam</string>
@@ -1407,27 +1346,22 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="pref_opticalstabi_title">Optical stabilization</string>
     <string name="about_mod_1_title">Check for updates</string>
     <string name="about_mod_1_summary" />
+    <string name="pref_aemode_8">1/3 sec. max</string>
+    <string name="pref_aemode_9">1/4 sec. max</string>
+    <string name="pref_aemode_10">1/6 sec. max</string>
+    <string name="pref_hdrplusmulti_3">+90%</string>
+    <string name="pref_hdrplusmulti_4">+85%</string>
     <string name="pref_siwl_title">Minimal HDR+ smoothing</string>
     <string name="pref_smas_title">Max. analog ISO</string>
     <string name="pref_smas_default">1250</string>
-    <string name="pref_smas_0">Auto</string>
-    <string name="pref_smas_1">50</string>
-    <string name="pref_smas_2">64</string>
-    <string name="pref_smas_3">80</string>
-    <string name="pref_smas_4">100</string>
-    <string name="pref_smas_5">125</string>
-    <string name="pref_smas_6">160</string>
-    <string name="pref_smas_7">200</string>
-    <string name="pref_smas_8">250</string>
-    <string name="pref_smas_9">320</string>
-    <string name="pref_smas_10">400</string>
-    <string name="pref_smas_11">500</string>
-    <string name="pref_smas_12">640</string>
-    <string name="pref_smas_13">800</string>
-    <string name="pref_smas_14">1250 (Galaxy S8)</string>
-    <string name="pref_smas_15">1600</string>
-    <string name="pref_smas_16">2200</string>
-    <string name="pref_smas_17">3300</string>
+    <string name="pref_hdrplusmulti_5">+80%</string>
+    <string name="pref_hdrplusmulti_6">+75%</string>
+    <string name="pref_hdrplusmulti_7">+70%</string>
+    <string name="pref_hdrplusmulti_8">+65%</string>
+    <string name="pref_hdrplusmulti_9">+60%</string>
+    <string name="pref_hdrplusmulti_10">+55%</string>
+    <string name="pref_hdrplusmulti_11">+50%</string>
+    <string name="pref_hdrplusmulti_12">+45%</string>
     <string name="pref_input_mf_enabled_macro_hint">Float number of distance (Infinity: 0.0, Shortest: 15.0, Default: 14.29).</string>
     <string name="pref_input_mf_enabled_portrait_hint">Float number of distance (Infinity: 0.0, Shortest: 15.0, Default: 2.21).</string>
     <string name="pref_input_mf_enabled_infinity_hint">Float number of distance (Infinity: 0.0, Shortest: 15.0, Default: 0.0).</string>
@@ -1443,6 +1377,18 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="pref_hexagon_summary">May offer better or worse perfomance. Must force close app.</string>
     <string name="pref_hexagon_0">@string/auto</string>
     <string name="pref_hexagon_1">Yes</string>
+    <string name="pref_hdrplusmulti_13">+40%</string>
+    <string name="pref_hdrplusmulti_14">+35%</string>
+    <string name="pref_hdrplusmulti_15">+30%</string>
+    <string name="pref_hdrplusmulti_16">+25%</string>
+    <string name="pref_hdrplusmulti_17">+20%</string>
+    <string name="pref_hdrplusmulti_18">+15%</string>
+    <string name="pref_hdrplusmulti_19">+10%</string>
+    <string name="pref_hdrplusmulti_20">+5%</string>
+    <string name="pref_hdrplusmulti_21">Off</string>
+    <string name="pref_hdrplusmulti_22">-5%</string>
+    <string name="pref_hdrplusmulti_23">-10%</string>
+    <string name="pref_hdrplusmulti_24">-15%</string>
     <string name="pref_hexagon_2">No</string>
     <string name="pref_wbmult_70">70%</string>
     <string name="pref_wbmult_71">71%</string>
@@ -1472,14 +1418,28 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="about_dev_2_title">Modded By</string>
     <string name="about_dev_2_summary">xenius9</string>
     <string name="about_dev_3_title">Version</string>
-    <string name="about_dev_3_summary">0.1</string>
+    <string name="about_dev_3_summary">0.17</string>
     <string name="about_dev_4_title">XDA Thread</string>
     <string name="about_dev_4_summary" />
     <string name="about_dev_5_title">Telegram Group</string>
     <string name="about_dev_5_summary" />
+    <string name="pref_hdrplusmulti_25">-20%</string>
     <string name="about_dev_6_title">Guide</string>
     <string name="about_dev_6_summary" />
     <string name="pref_livehdr_summary">Enable if you have a good light source</string>
+    <item type="string" name="APKTOOL_DUMMY_57a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_57b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_57c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_57d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_57e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_57f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_580">false</item>
+    <item type="string" name="APKTOOL_DUMMY_581">false</item>
+    <item type="string" name="APKTOOL_DUMMY_582">false</item>
+    <item type="string" name="APKTOOL_DUMMY_583">false</item>
+    <item type="string" name="APKTOOL_DUMMY_584">false</item>
+    <string name="pref_hdrplusmulti_26">-25%</string>
+    <item type="string" name="APKTOOL_DUMMY_586">false</item>
     <string name="sat_title">Saturation</string>
     <string name="hlsat_title">Highlight Saturation</string>
     <string name="ssat_title">Shadow Saturation</string>
@@ -1505,119 +1465,6 @@ The value should not exceed the actual size of the camera module"</string>
     <string name="sat_19">1.9</string>
     <string name="sat_20">2.0</string>
     <string name="sat_21">2.1</string>
-    <string name="sat_22">2.2</string>
-    <string name="sat_23">2.3</string>
-    <string name="sat_24">2.4</string>
-    <string name="sat_25">2.5</string>
-    <string name="sat_26">2.6</string>
-    <string name="sat_27">2.7</string>
-    <string name="sat_28">2.8</string>
-    <string name="sat_29">2.9</string>
-    <string name="sat_30">3.0</string>
-    <string name="sat_31">3.1</string>
-    <string name="sat_32">3.2</string>
-    <string name="sat_33">3.3</string>
-    <string name="sat_34">3.4</string>
-    <string name="sat_35">3.5</string>
-    <string name="sat_36">3.6</string>
-    <string name="sat_37">3.7</string>
-    <string name="sat_38">3.8</string>
-    <string name="sat_39">3.9</string>
-    <string name="sat_40">4.0</string>
-    <string name="sat_41">4.1</string>
-    <string name="sat_42">4.2</string>
-    <string name="sat_43">4.3</string>
-    <string name="sat_44">4.4</string>
-    <string name="sat_45">4.5</string>
-    <string name="sat_46">4.6</string>
-    <string name="sat_47">4.7</string>
-    <string name="sat_48">4.8</string>
-    <string name="sat_49">4.9</string>
-    <string name="sat_50">5.0</string>
-    <string name="ssat_default">16</string>
-    <string name="hlsat_default">10</string>
-    <string name="pref_folder_title">@string/path</string>
-    <string name="pref_bitrate_title">Bitrate</string>
-    <string name="pref_bitrate_default">5</string>
-    <string name="pref_bitrate_summary">%s</string>
-    <string name="pref_bitrate_1">10 Mbps</string>
-    <string name="pref_bitrate_2">15 Mbps</string>
-    <string name="pref_bitrate_3">20 Mbps</string>
-    <string name="pref_bitrate_4">30 Mbps</string>
-    <string name="pref_bitrate_5">40 Mbps</string>
-    <string name="pref_bitrate_6">50 Mbps</string>
-    <string name="pref_bitrate_7">60 Mbps</string>
-    <string name="pref_bitrate_8">70 Mbps</string>
-    <string name="pref_bitrate_9">80 Mbps</string>
-    <string name="pref_bitrate_10">90 Mbps</string>
-    <string name="pref_bitrate_11">100 Mbps</string>
-    <string name="resampling_method_override_default">1023</string>
-    <string name="override_0">0</string>
-    <string name="override_1">1</string>
-    <string name="override_2">=63=</string>
-    <string name="override_3">=127=</string>
-    <string name="override_4">=255=</string>
-    <string name="override_5">=383=</string>
-    <string name="override_6">=511=</string>
-    <string name="override_7">519</string>
-    <string name="override_8">535</string>
-    <string name="override_9">551</string>
-    <string name="override_10">567</string>
-    <string name="override_11">583</string>
-    <string name="override_12">599</string>
-    <string name="override_13">615</string>
-    <string name="override_14">631</string>
-    <string name="override_15">=639=</string>
-    <string name="override_16">671</string>
-    <string name="override_17">703</string>
-    <string name="override_18">735</string>
-    <string name="override_19">751</string>
-    <string name="override_20">=767=</string>
-    <string name="override_21">783</string>
-    <string name="override_22">815</string>
-    <string name="override_23">847</string>
-    <string name="override_24">879</string>
-    <string name="override_25">=895=</string>
-    <string name="override_26">911</string>
-    <string name="override_27">927</string>
-    <string name="override_28">943</string>
-    <string name="override_29">=959=</string>
-    <string name="override_30">975</string>
-    <string name="override_31">991</string>
-    <string name="override_32">1007</string>
-    <string name="override_33">=1023*(Default)=</string>
-    <string name="override_34">1055</string>
-    <string name="override_35">1087</string>
-    <string name="override_36">1119</string>
-    <string name="override_37">1151</string>
-    <string name="override_38">1183</string>
-    <string name="override_39">1215</string>
-    <string name="override_40">1231</string>
-    <string name="override_41">1247</string>
-    <string name="override_42">1255</string>
-    <string name="allow_base_frame_reuse">Allow base frame reuse</string>
-    <string name="cull_metering_frames_using_previous_viewfinder">Cull metering frames using previous viewfinder</string>
-    <string name="ignore_black_pixels">Ignore black pixels</string>
-    <string name="suppress_hot_pixels">Suppress hot pixels</string>
-    <string name="resampling_method_override_title">Resampling method override</string>
-    <string name="pref_override_0">None</string>
-    <string name="pref_override_1">Lanczos</string>
-    <string name="pref_override_2">Raisr</string>
-    <string name="pref_override_3">Method 3</string>
-    <string name="pref_frame_lock">Lock HDR+ frames</string>
-    <string name="pref_frame_lock_summary">If enabled the number of HDR+ burst photos will not vary depending on light condition</string>
-    <item type="string" name="APKTOOL_DUMMY_57a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_57b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_57c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_57d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_57e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_57f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_580">false</item>
-    <item type="string" name="APKTOOL_DUMMY_581">false</item>
-    <item type="string" name="APKTOOL_DUMMY_582">false</item>
-    <item type="string" name="APKTOOL_DUMMY_583">false</item>
-    <item type="string" name="APKTOOL_DUMMY_584">false</item>
-    <item type="string" name="APKTOOL_DUMMY_586">false</item>
     <item type="string" name="APKTOOL_DUMMY_5a0">false</item>
     <item type="string" name="APKTOOL_DUMMY_5a1">false</item>
     <item type="string" name="APKTOOL_DUMMY_5a2">false</item>
@@ -1714,10 +1561,183 @@ The value should not exceed the actual size of the camera module"</string>
     <item type="string" name="APKTOOL_DUMMY_5fd">false</item>
     <item type="string" name="APKTOOL_DUMMY_5fe">false</item>
     <item type="string" name="APKTOOL_DUMMY_5ff">false</item>
+    <string name="sat_22">2.2</string>
+    <string name="sat_23">2.3</string>
+    <string name="sat_24">2.4</string>
+    <string name="sat_25">2.5</string>
+    <string name="sat_26">2.6</string>
+    <string name="sat_27">2.7</string>
+    <string name="sat_28">2.8</string>
+    <string name="sat_29">2.9</string>
+    <string name="sat_30">3.0</string>
+    <string name="sat_31">3.1</string>
+    <string name="sat_32">3.2</string>
+    <string name="sat_33">3.3</string>
+    <string name="sat_34">3.4</string>
+    <string name="sat_35">3.5</string>
+    <string name="sat_36">3.6</string>
+    <string name="sat_37">3.7</string>
+    <string name="sat_38">3.8</string>
+    <string name="sat_39">3.9</string>
+    <string name="sat_40">4.0</string>
+    <string name="sat_41">4.1</string>
+    <string name="sat_42">4.2</string>
+    <string name="sat_43">4.3</string>
+    <string name="sat_44">4.4</string>
+    <string name="sat_45">4.5</string>
+    <string name="sat_46">4.6</string>
+    <string name="sat_47">4.7</string>
+    <string name="sat_48">4.8</string>
+    <string name="sat_49">4.9</string>
+    <string name="sat_50">5.0</string>
     <item type="string" name="APKTOOL_DUMMY_61d">false</item>
     <item type="string" name="APKTOOL_DUMMY_61e">false</item>
     <item type="string" name="APKTOOL_DUMMY_61f">false</item>
+    <string name="ssat_default">16</string>
+    <string name="hlsat_default">10</string>
+    <string name="pref_folder_title">@string/path</string>
+    <string name="pref_bitrate_title">Bitrate</string>
+    <string name="pref_bitrate_default">5</string>
+    <string name="pref_bitrate_summary">%s</string>
+    <string name="pref_bitrate_1">10 Mbps</string>
+    <string name="pref_bitrate_2">15 Mbps</string>
+    <string name="pref_bitrate_3">20 Mbps</string>
+    <string name="pref_bitrate_4">30 Mbps</string>
+    <string name="pref_bitrate_5">40 Mbps</string>
+    <string name="pref_bitrate_6">50 Mbps</string>
+    <string name="pref_bitrate_7">60 Mbps</string>
+    <string name="pref_bitrate_8">70 Mbps</string>
+    <string name="pref_bitrate_9">80 Mbps</string>
+    <string name="pref_bitrate_10">90 Mbps</string>
+    <string name="pref_bitrate_11">100 Mbps</string>
+    <string name="resampling_method_override_default">1023</string>
+    <string name="override_0">"0
+(Better details, big noise)"</string>
+    <string name="override_1">1 (Funny)</string>
+    <string name="override_2">=63=</string>
+    <string name="override_3">=127=</string>
+    <string name="override_4">=255=</string>
+    <string name="override_5">=383=</string>
+    <string name="override_6">=511=</string>
+    <string name="override_7">519</string>
+    <string name="override_8">535</string>
+    <string name="override_9">551</string>
+    <string name="allow_base_frame_reuse">Allow base frame reuse</string>
+    <string name="cull_metering_frames_using_previous_viewfinder">Cull metering frames using previous viewfinder</string>
+    <string name="ignore_black_pixels">Ignore black pixels</string>
+    <string name="suppress_hot_pixels">Suppress hot pixels</string>
+    <string name="resampling_method_override_title">Resampling method override</string>
+    <string name="pref_override_0">None</string>
+    <string name="pref_override_1">Lanczos</string>
+    <string name="pref_override_2">Raisr</string>
+    <string name="pref_exp_title">Remove the ISO limit in dark conditions</string>
+    <string name="pref_hdrplusmulti_27">-30%</string>
+    <string name="pref_hdrplusmulti_28">-35%</string>
+    <string name="pref_hdrplusmulti_29">-40%</string>
+    <string name="pref_frame_lock">Lock HDR+ frames</string>
+    <string name="pref_frame_lock_summary">If enabled the number of HDR+ burst photos will not vary depending on light condition</string>
+    <string name="pref_hdrplusmulti_30">-45%</string>
+    <string name="pref_hdrplusmulti_31">-50%</string>
+    <string name="pref_hdrplusmulti_32">-55%</string>
+    <string name="pref_hdrplusmulti_33">-60%</string>
+    <string name="pref_hdrplusmulti_34">-65%</string>
+    <string name="pref_hdrplusmulti_35">-70%</string>
+    <string name="pref_hdrplusmulti_36">-75%</string>
+    <string name="pref_hdrplusmulti_37">-80%</string>
+    <string name="pref_hdrplusmulti_38">-85%</string>
+    <string name="pref_hdrplusmulti_39">-90%</string>
+    <string name="pref_hdrplusmulti_40">-95%</string>
+    <string name="pref_hdrplusmulti_41">-100%</string>
+    <string name="pref_denoiseluma_600">6</string>
+    <string name="pref_denoiseluma_700">7</string>
+    <string name="pref_denoiseluma_800">8</string>
+    <string name="pref_denoiseluma_900">9</string>
+    <string name="pref_denoiseluma_1100">11</string>
+    <string name="pref_denoiseluma_1200">12</string>
+    <string name="pref_denoiseluma_1300">13</string>
+    <string name="pref_denoiseluma_1400">14</string>
+    <string name="pref_denoiseluma_1500">15</string>
+    <string name="pref_denoiseluma_1600">16</string>
+    <string name="pref_denoiseluma_1700">17</string>
+    <string name="pref_denoiseluma_1800">18</string>
+    <string name="pref_denoiseluma_1900">19</string>
+    <string name="pref_denoiseluma_2000">20</string>
+    <string name="pref_denoiseluma_3000">30</string>
+    <string name="pref_denoiseluma_4000">40</string>
+    <string name="pref_denoiseluma_5000">50</string>
+    <string name="pref_denoiseluma_6000">60</string>
+    <string name="pref_denoiseluma_7000">70</string>
+    <string name="pref_denoiseluma_8000">80</string>
+    <string name="pref_denoiseluma_9000">90</string>
+    <string name="pref_smas_0">Auto</string>
+    <string name="pref_smas_1">50</string>
+    <string name="pref_smas_2">64</string>
+    <string name="pref_smas_3">80</string>
+    <string name="pref_smas_4">100</string>
+    <string name="pref_smas_5">125</string>
+    <string name="pref_smas_6">160</string>
+    <string name="pref_smas_7">200</string>
+    <string name="pref_smas_8">250</string>
+    <string name="pref_smas_9">320</string>
+    <string name="pref_smas_10">400</string>
+    <string name="pref_smas_11">500</string>
+    <string name="pref_smas_12">640</string>
+    <string name="pref_smas_13">800</string>
+    <string name="pref_smas_14">1250 (Galaxy S8)</string>
+    <string name="pref_smas_15">1600</string>
+    <string name="pref_smas_16">2200</string>
+    <string name="pref_smas_17">3300</string>
+    <string name="override_10">567</string>
+    <string name="override_11">583</string>
+    <string name="override_12">599</string>
+    <string name="override_13">615</string>
+    <string name="override_14">631</string>
+    <string name="override_15">=639=</string>
+    <string name="override_16">671</string>
+    <string name="override_17">703</string>
+    <string name="override_18">735</string>
+    <string name="override_19">751</string>
+    <string name="override_20">=767=</string>
+    <string name="override_21">783</string>
+    <string name="override_22">815</string>
+    <string name="override_23">847</string>
+    <string name="override_24">879</string>
+    <string name="override_25">=895= (Balanced)</string>
+    <string name="override_26">911</string>
+    <string name="override_27">927</string>
+    <string name="override_28">943</string>
+    <string name="override_29">=959=</string>
+    <string name="override_30">975</string>
+    <string name="override_31">991</string>
+    <string name="override_32">1007</string>
+    <string name="override_33">=1023= (Default)</string>
+    <string name="override_34">1055</string>
+    <string name="override_35">1087</string>
+    <string name="override_36">1119</string>
+    <string name="override_37">1151</string>
+    <string name="override_38">1183</string>
+    <string name="override_39">1215</string>
+    <string name="override_40">1231</string>
+    <string name="override_41">1247</string>
+    <string name="override_42">1255</string>
     <string name="pref_max_brightness_title">Maximum viewfinder brightness</string>
     <string name="fix_use_photos_title">Use Google Photo</string>
     <string name="google_photos_summary">camera.use_photos</string>
+    <string name="pref_exp_title_summary">With any values of the correction of auto-exposure use the full range of ISO</string>
+    <string name="bl_offset_title">Max. blackLevel offset</string>
+    <string name="bl_offset_default">150</string>
+    <string name="bl_offset_0">0</string>
+    <string name="bl_offset_25">25</string>
+    <string name="bl_offset_50">50</string>
+    <string name="bl_offset_75">75</string>
+    <string name="bl_offset_100">100</string>
+    <string name="bl_offset_125">125</string>
+    <string name="bl_offset_150">150 (Default)</string>
+    <string name="libs_title">Gamma optimization</string>
+    <string name="libs_a">Off</string>
+    <string name="libs_b">Peoples, portraits.</string>
+    <string name="libs_c">Low contrast.</string>
+    <string name="libs_d">Bright night.</string>
+    <string name="libs_default">1</string>
+    <string name="libs_title_summary">%s</string>
 </resources>

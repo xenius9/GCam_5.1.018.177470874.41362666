@@ -5,20 +5,59 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 1
+    .locals 3
 
     const-string v0, "AndroidJniUtilsJni"
 
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
+    sget v0, Lbhn;->sLibs:I
+
+    const/4 v1, 0x1
+
+    if-eq v0, v1, :cond_0
+
+    const/4 v1, 0x2
+
+    if-eq v0, v1, :cond_1
+
+    const/4 v1, 0x3
+
+    if-eq v0, v1, :cond_2
+
     const-string v0, "gcam"
 
+    const-string v2, "gcam_swig_jni"
+
+    :goto_0
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    const-string v0, "gcam_swig_jni"
+    invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+    goto :goto_1
 
+    :cond_0
+    const-string v0, "gc01"
+
+    const-string v2, "gc01_swig_jni"
+
+    goto :goto_0
+
+    :cond_1
+    const-string v0, "gc02"
+
+    const-string v2, "gc02_swig_jni"
+
+    goto :goto_0
+
+    :cond_2
+    const-string v0, "gc03"
+
+    const-string v2, "gc03_swig_jni"
+
+    goto :goto_0
+
+    :goto_1
     return-void
 .end method
 

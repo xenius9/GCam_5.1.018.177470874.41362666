@@ -208,6 +208,28 @@
     goto :goto_0
 .end method
 
+.method public static setProcessing(Landroid/content/Context;I)V
+    .locals 3
+
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+
+    move-result-object v1
+
+    const-string v2, "hdr_plus_processing"
+
+    invoke-interface {v1, v2, p1}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
+
+    return-void
+.end method
+
 
 # virtual methods
 .method public final a()V
@@ -259,6 +281,10 @@
     invoke-direct {v2, p0}, Lejf;-><init>(Lcom/google/android/apps/camera/legacy/app/processing/ProcessingService;)V
 
     invoke-virtual {v0, v2}, Lawq;->execute(Ljava/lang/Runnable;)V
+
+    const/4 v0, 0x1
+
+    invoke-static {p0, v0}, Lcom/google/android/apps/camera/legacy/app/processing/ProcessingService;->setProcessing(Landroid/content/Context;I)V
 
     :goto_0
     monitor-exit v1
@@ -561,7 +587,7 @@
 
     check-cast v0, Ljava/util/ArrayList;
 
-    if-nez v0, :cond_2
+    if-nez v0, :cond_3
 
     monitor-exit v10
     :try_end_0
@@ -587,7 +613,7 @@
 
     iget-boolean v0, v1, Lgow;->e:Z
 
-    if-eqz v0, :cond_8
+    if-eqz v0, :cond_9
 
     const-string v0, "Yes"
 
@@ -600,7 +626,7 @@
 
     move-result v5
 
-    if-eqz v5, :cond_9
+    if-eqz v5, :cond_a
 
     invoke-virtual {v4, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
@@ -611,7 +637,7 @@
 
     iget-boolean v0, v1, Lgow;->e:Z
 
-    if-eqz v0, :cond_a
+    if-eqz v0, :cond_b
 
     const/4 v0, 0x0
 
@@ -624,9 +650,46 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    return-void
+    const/4 v0, 0x0
+
+    invoke-static {p0, v0}, Lcom/google/android/apps/camera/legacy/app/processing/ProcessingService;->setProcessing(Landroid/content/Context;I)V
+
+    sget-boolean v0, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->isrestart:Z
+
+    if-eqz v0, :cond_2
+
+    sget-boolean v0, Lcom/google/android/apps/camera/legacy/app/activity/main/CameraActivity;->isbackground:Z
+
+    if-nez v0, :cond_2
+
+    const/4 v0, 0x0
+
+    sput-boolean v0, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->isrestart:Z
+
+    new-instance v0, Landroid/content/Intent;
+
+    const-class v1, Lcom/google/android/apps/camera/legacy/app/activity/main/CameraActivity;
+
+    invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    const v1, 0x8000
+
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    const/high16 v1, 0x10000000
+
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    invoke-virtual {p0, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Ljava/lang/System;->exit(I)V
 
     :cond_2
+    return-void
+
+    :cond_3
     :try_start_2
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -637,7 +700,7 @@
     move v7, v1
 
     :goto_3
-    if-ltz v7, :cond_7
+    if-ltz v7, :cond_8
 
     invoke-virtual {v0, v7}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -658,7 +721,7 @@
 
     move-result v2
 
-    if-ge v5, v2, :cond_6
+    if-ge v5, v2, :cond_7
 
     iget-object v2, v1, Leb;->a:Landroid/content/IntentFilter;
 
@@ -674,7 +737,7 @@
 
     check-cast v2, Ljava/util/ArrayList;
 
-    if-eqz v2, :cond_5
+    if-eqz v2, :cond_6
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
 
@@ -685,7 +748,7 @@
     move v4, v3
 
     :goto_5
-    if-ltz v4, :cond_4
+    if-ltz v4, :cond_5
 
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -695,7 +758,7 @@
 
     iget-object v12, v3, Leb;->b:Landroid/content/BroadcastReceiver;
 
-    if-ne v12, v9, :cond_3
+    if-ne v12, v9, :cond_4
 
     const/4 v12, 0x1
 
@@ -703,39 +766,39 @@
 
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
 
-    :cond_3
+    :cond_4
     add-int/lit8 v3, v4, -0x1
 
     move v4, v3
 
     goto :goto_5
 
-    :cond_4
+    :cond_5
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
 
     move-result v2
 
-    if-gtz v2, :cond_5
+    if-gtz v2, :cond_6
 
     iget-object v2, v8, Ldz;->c:Ljava/util/HashMap;
 
     invoke-virtual {v2, v11}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    :cond_5
+    :cond_6
     add-int/lit8 v2, v5, 0x1
 
     move v5, v2
 
     goto :goto_4
 
-    :cond_6
+    :cond_7
     add-int/lit8 v1, v7, -0x1
 
     move v7, v1
 
     goto :goto_3
 
-    :cond_7
+    :cond_8
     monitor-exit v10
 
     goto/16 :goto_0
@@ -749,18 +812,18 @@
 
     throw v0
 
-    :cond_8
+    :cond_9
     :try_start_3
     const-string v0, "No"
 
-    goto :goto_1
+    goto/16 :goto_1
 
-    :cond_9
+    :cond_a
     new-instance v0, Ljava/lang/String;
 
     invoke-direct {v0, v4}, Ljava/lang/String;-><init>(Ljava/lang/String;)V
 
-    goto :goto_2
+    goto/16 :goto_2
 
     :catchall_1
     move-exception v0
@@ -771,7 +834,7 @@
 
     throw v0
 
-    :cond_a
+    :cond_b
     :try_start_4
     iget-object v0, v1, Lgow;->c:Ljava/util/LinkedList;
 

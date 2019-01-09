@@ -115,6 +115,11 @@
     goto :goto_2
 
     :pswitch_9
+    const-wide v12, 0x4062c00000000000L    # 150.0
+
+    goto :goto_2
+
+    :pswitch_a
     const-wide v12, 0x4059000000000000L    # 100.0
 
     :goto_2
@@ -144,32 +149,32 @@
 
     goto/16 :goto_0
 
-    :pswitch_a
+    :pswitch_b
     const-wide/high16 v12, 0x4059000000000000L    # 100.0
 
     goto :goto_3
 
-    :pswitch_b
+    :pswitch_c
     const-wide/high16 v12, 0x4049000000000000L    # 50.0
 
     goto :goto_3
 
-    :pswitch_c
+    :pswitch_d
     const-wide/high16 v12, 0x403e000000000000L    # 30.0
 
     goto :goto_3
 
-    :pswitch_d
+    :pswitch_e
     const-wide/high16 v12, 0x4034000000000000L    # 20.0
 
     goto :goto_3
 
-    :pswitch_e
+    :pswitch_f
     const-wide/high16 v12, 0x4024000000000000L    # 10.0
 
     goto :goto_3
 
-    :pswitch_f
+    :pswitch_10
     const-wide/high16 v12, 0x4014000000000000L    # 5.0
 
     :goto_3
@@ -199,8 +204,6 @@
 
     goto/16 :goto_0
 
-    nop
-
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_0
@@ -219,5 +222,6 @@
         :pswitch_d
         :pswitch_e
         :pswitch_f
+        :pswitch_10
     .end packed-switch
 .end method
